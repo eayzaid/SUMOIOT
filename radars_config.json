@@ -1,0 +1,26 @@
+[
+    {
+        "id": "radar_1",
+        "x": 470,
+        "y": 406,
+        "speed_limit": 16,
+        "detection_radius": 80.0,
+        "description": "MidWay elBaridBank , Farid al Ansary"
+    },
+    {
+        "id": "radar_2",
+        "x": 207,
+        "y": 403,
+        "speed_limit": 16,
+        "detection_radius": 80.0,
+        "description": "Near Marjane Junction , Farid al Ansary"
+    },
+    {
+        "id": "radar_3",
+        "x": 825,
+        "y": 412,
+        "speed_limit": 16,
+        "detection_radius": 80.0,
+        "description": "Bayt El Maarifa , Farid al Ansary"
+    }
+]
