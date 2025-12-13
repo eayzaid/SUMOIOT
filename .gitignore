@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# SUMO Output Files
+*.xml.bak
+tripinfos.xml
+stats.xml
+speed_violations.log
+*.backup
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
