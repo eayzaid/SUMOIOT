@@ -1,22 +1,44 @@
 import traci
 import time
+import uuid
+import requests
 from driversManagement import *
 from sensorsScripts.speedRadar import RadarManager
 
 # 1. Initialize radar system
+# Generate unique simulation ID
+simulation_id = str(uuid.uuid4())
+print(f"Starting simulation with ID: {simulation_id}")
+
 # Using 'full' scan - simple and reliable for IoT demo
-radar_manager = RadarManager('radars_config.json', method='full')
+radar_manager = RadarManager('radars_config.json', method='full', simulation_id=simulation_id)
 radar_manager.load_radars()
 
-# 2. Start the simulation with GUI
-# "sumo-gui" opens the window. Change to "sumo" to run without window.
-sumoCmd = ["sumo-gui", "-c", "./ENSAM_MAP/config.sumocfg", "--start"]
+# Notify backend of start
+try:
+    requests.post('http://localhost:5000/api/simulation/start', json={'simulation_id': simulation_id})
+except:
+    try:
+        requests.post('http://backend:5000/api/simulation/start', json={'simulation_id': simulation_id})
+    except:
+        print("Warning: Could not notify backend of start")
+
+import os
+
+# 2. Start the simulation with GUI or Headless
+# Check if running in Docker or explicitly requested headless
+if os.environ.get('HEADLESS_MODE') == 'true':
+    sumoBinary = "sumo"
+else:
+    sumoBinary = "sumo-gui"
+
+sumoCmd = [sumoBinary, "-c", "./ENSAM_MAP/config.sumocfg", "--start"]
 traci.start(sumoCmd)
 
 # 3. Add radars to the map (visual representation)
 print("Adding speed radars to map...")
 radar_manager.add_radars_to_map(traci)
-print("✓ Radars added to map\n")
+print("[INFO] Radars added to map\n")
 
 step = 0
 print("Starting simulation loop...\n")
@@ -42,6 +64,15 @@ while step < 3600:
 
 print("\nSimulation complete. Closing...")
 traci.close()
+
+# Notify backend of end
+try:
+    requests.post('http://localhost:5000/api/simulation/end', json={'simulation_id': simulation_id})
+except:
+    try:
+        requests.post('http://backend:5000/api/simulation/end', json={'simulation_id': simulation_id})
+    except:
+        print("Warning: Could not notify backend of end")
 
 # Print radar statistics
 radar_manager.print_summary()

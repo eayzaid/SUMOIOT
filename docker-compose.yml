@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: sumo_db
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    environment:
+      DB_HOST: db
+      DB_NAME: sumo_db
+      DB_USER: postgres
+      DB_PASSWORD: postgres
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  simulation:
+    build: 
+      context: .
+      dockerfile: Dockerfile.simulation
+    labels:
+      - "com.sumoiot.role=simulation"
+    environment:
+      SUMO_HOME: /usr/share/sumo
+    volumes:
+      - .:/app
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

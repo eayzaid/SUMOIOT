@@ -180,18 +180,18 @@ def introduceRandomErrors(traci, error_probability=0.001):
                 # Simulate panic braking (emergency stop)
                 current_speed = traci.vehicle.getSpeed(car_id)
                 traci.vehicle.slowDown(car_id, current_speed * 0.3, 1000)  # Reduce to 30% in 1 sec
-                print(f"⚠️  {car_id}: SUDDEN BRAKE!")
+                print(f"[WARN] {car_id}: SUDDEN BRAKE!")
                 
             elif error_type == 'speed_change':
                 # Sudden acceleration or deceleration (driver error/distraction)
                 new_speed_factor = random.uniform(0.7, 1.4)
                 traci.vehicle.setSpeedFactor(car_id, new_speed_factor)
-                print(f"⚠️  {car_id}: Speed fluctuation ({new_speed_factor:.2f}x)")
+                print(f"[WARN] {car_id}: Speed fluctuation ({new_speed_factor:.2f}x)")
                 
             elif error_type == 'distraction':
                 # Temporarily increase imperfection (weaving, delayed reaction)
                 traci.vehicle.setImperfection(car_id, random.uniform(0.6, 0.9))
-                print(f"⚠️  {car_id}: Distracted!")
+                print(f"[WARN] {car_id}: Distracted!")
 
 
 def introduceFatigue(traci, simulation_step, fatigue_start_step=5000):

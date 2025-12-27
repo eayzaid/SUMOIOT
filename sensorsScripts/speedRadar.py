@@ -1,4 +1,5 @@
 import json
+import requests
 import math
 from datetime import datetime
 from driversManagement import get_vehicle_plate
@@ -10,8 +11,9 @@ class SpeedRadar:
     Efficiently detects speeding vehicles within detection radius.
     """
     
-    def __init__(self, radar_id, x, y, speed_limit, detection_radius=80.0, description=""):
+    def __init__(self, radar_id, x, y, speed_limit, detection_radius=80.0, description="", simulation_id=None):
         self.id = radar_id
+        self.simulation_id = simulation_id
         self.x = x
         self.y = y
         self.speed_limit = speed_limit  # in m/s
@@ -76,9 +78,9 @@ class SpeedRadar:
         
         self.edges_initialized = True
         if len(self.nearby_edges) > 0:
-            print(f"  • {self.id}: Found {len(self.nearby_edges)} nearby edges")
+            print(f"  * {self.id}: Found {len(self.nearby_edges)} nearby edges")
         else:
-            print(f"  ⚠️ {self.id}: NO nearby edges found! Check radar coordinates (x={self.x}, y={self.y})")
+            print(f"  [WARN] {self.id}: NO nearby edges found! Check radar coordinates (x={self.x}, y={self.y})")
     
     def get_nearby_vehicles(self, traci):
         """
@@ -146,6 +148,7 @@ class SpeedRadar:
                 license_plate = get_vehicle_plate(traci, vehicle_id)
                 
                 violation = {
+                    'simulation_id': self.simulation_id,
                     'radar_id': self.id,
                     'vehicle_id': vehicle_id,
                     'license_plate': license_plate,
@@ -190,9 +193,10 @@ class RadarManager:
     METHOD_CONTEXT_SUB = 'subscription'  # Fast: TraCI context subscriptions
     METHOD_FULL_SCAN = 'full'            # Slow: check all vehicles
     
-    def __init__(self, config_file='radars_config.json', method='edge'):
+    def __init__(self, config_file='radars_config.json', method='edge', simulation_id=None):
         self.radars = []
         self.config_file = config_file
+        self.simulation_id = simulation_id
         self.violations_log = []
         self.log_file = 'speed_violations.log'
         self.detection_method = method
@@ -217,22 +221,23 @@ class RadarManager:
                     y=radar_data['y'],
                     speed_limit=radar_data['speed_limit'],
                     detection_radius=radar_data.get('detection_radius', 80.0),
-                    description=radar_data.get('description', '')
+                    description=radar_data.get('description', ''),
+                    simulation_id=self.simulation_id
                 )
                 self.radars.append(radar)
             
-            print(f"✓ Loaded {len(self.radars)} speed radars from {self.config_file}")
+            print(f"[INFO] Loaded {len(self.radars)} speed radars from {self.config_file}")
             for radar in self.radars:
                 speed_kmh = radar.speed_limit * 3.6
-                print(f"  • {radar.id} at ({radar.x:.1f}, {radar.y:.1f}) - "
+                print(f"  * {radar.id} at ({radar.x:.1f}, {radar.y:.1f}) - "
                       f"Limit: {speed_kmh:.0f} km/h - {radar.description}")
             return True
         
         except FileNotFoundError:
-            print(f"⚠️  Warning: {self.config_file} not found. No radars loaded.")
+            print(f"[WARN] Warning: {self.config_file} not found. No radars loaded.")
             return False
         except json.JSONDecodeError as e:
-            print(f"⚠️  Error parsing {self.config_file}: {e}")
+            print(f"[ERROR] Error parsing {self.config_file}: {e}")
             return False
     
     def add_radars_to_map(self, traci):
@@ -265,7 +270,7 @@ class RadarManager:
                 )
                 
             except Exception as e:
-                print(f"⚠️  Could not add visual for {radar.id}: {e}")
+                print(f"[WARN] Could not add visual for {radar.id}: {e}")
         
         # Initialize detection method
         if self.detection_method == self.METHOD_EDGE_BASED:
@@ -273,7 +278,7 @@ class RadarManager:
             print("Finding nearby edges for each radar...")
             for radar in self.radars:
                 radar.find_nearby_edges(traci)
-            print(f"✓ Edge-based detection active (fastest)")
+            print(f"[INFO] Edge-based detection active (fastest)")
             
         elif self.detection_method == self.METHOD_CONTEXT_SUB:
             # Setup context subscriptions
@@ -294,10 +299,10 @@ class RadarManager:
                         [traci.constants.VAR_SPEED, traci.constants.VAR_POSITION]
                     )
                 except Exception as e:
-                    print(f"⚠️  Context subscription failed for {radar.id}: {e}")
-            print(f"✓ Context subscriptions active (fast)")
+                    print(f"[WARN] Context subscription failed for {radar.id}: {e}")
+            print(f"[INFO] Context subscriptions active (fast)")
         else:
-            print(f"✓ Full scan mode (slower but compatible)")
+            print(f"[INFO] Full scan mode (slower but compatible)")
         
         self.initialized = True
     
@@ -376,6 +381,7 @@ class RadarManager:
                             license_plate = get_vehicle_plate(traci, vehicle_id)
                             
                             violation = {
+                                'simulation_id': radar.simulation_id,
                                 'radar_id': radar.id,
                                 'vehicle_id': vehicle_id,
                                 'license_plate': license_plate,
@@ -392,7 +398,7 @@ class RadarManager:
                             self._log_violation(violation)
             except Exception as e:
                 # If subscription fails, fall back to full scan for this radar
-                print(f"⚠️  Subscription failed for {radar.id}, using fallback: {e}")
+                print(f"[WARN] Subscription failed for {radar.id}, using fallback: {e}")
                 self._check_radar_full_scan(traci, radar, current_step)
     
     def _check_with_full_scan(self, traci, current_step):
@@ -420,12 +426,12 @@ class RadarManager:
                 self._log_violation(violation)
     
     def _log_violation(self, violation):
-        """Log a speed violation to file and console"""
+        """Log a speed violation to file, console, and backend API"""
         self.violations_log.append(violation)
         
         # Format log message
         log_msg = (
-            f"🚨 VIOLATION #{len(self.violations_log)}\n"
+            f"[VIOLATION] #{len(self.violations_log)}\n"
             f"   License Plate: {violation['license_plate']}\n"
             f"   Vehicle ID: {violation['vehicle_id']}\n"
             f"   Radar: {violation['radar_id']} - {violation['description']}\n"
@@ -442,9 +448,23 @@ class RadarManager:
             f.write(log_msg)
         
         # Print to console (shorter version)
-        print(f"🚨 {violation['license_plate']}: {violation['actual_speed_kmh']:.0f} km/h "
+        print(f"[VIOLATION] {violation['license_plate']}: {violation['actual_speed_kmh']:.0f} km/h "
               f"in {violation['speed_limit_kmh']:.0f} km/h zone (+{violation['overspeed_kmh']:.0f}) "
               f"@ {violation['radar_id']}")
+
+        # Send to backend
+        try:
+            # Try localhost first (local run), then 'backend' (docker run)
+            # In a real scenario, this should be configurable via env var
+            api_url = "http://localhost:5000/api/violations"
+            try:
+                requests.post(api_url, json=violation, timeout=1)
+            except requests.exceptions.ConnectionError:
+                # If localhost fails, try docker service name
+                api_url = "http://backend:5000/api/violations"
+                requests.post(api_url, json=violation, timeout=1)
+        except Exception as e:
+            print(f"[WARN] Failed to send violation to backend: {e}")
     
     def get_statistics(self):
         """Get overall statistics for all radars"""
@@ -472,6 +492,6 @@ class RadarManager:
         print(f"Total Vehicle Checks: {stats['total_checks']}")
         print("\nViolations by Radar:")
         for radar_id, count in stats['violations_by_radar'].items():
-            print(f"  • {radar_id}: {count} violations")
+            print(f"  * {radar_id}: {count} violations")
         print("=" * 80)
         print(f"Full log saved to: {self.log_file}")

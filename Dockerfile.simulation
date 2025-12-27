@@ -1,0 +1,26 @@
+FROM ubuntu:22.04
+
+# Install SUMO and Python
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install -y \
+    software-properties-common \
+    && add-apt-repository ppa:sumo/stable \
+    && apt-get update && apt-get install -y \
+    sumo \
+    sumo-tools \
+    sumo-doc \
+    python3 \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Install Python dependencies
+RUN pip3 install traci requests
+
+# Copy project files (will be overridden by volume in compose for dev, but good for prod)
+COPY . .
+
+# Run simulation in headless mode (no GUI)
+ENV HEADLESS_MODE=true
+CMD ["python3", "simulation.py"]
