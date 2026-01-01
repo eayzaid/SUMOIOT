@@ -16,6 +16,7 @@
   align-items: center;
   gap: 15px;
   border-bottom: 1px solid #eee;
+  position: relative;
 }
 
 h1 {
@@ -241,4 +242,23 @@ th {
 .restart-button:disabled {
   background-color: #adb5bd;
   cursor: not-allowed;
+}
+
+.logout-button {
+  background-color: #e03131;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 14px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.logout-button:hover {
+  background-color: #c92a2a;
 }

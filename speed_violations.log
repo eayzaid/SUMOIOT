@@ -1,279 +1,229 @@
 ====================================================================================================
-SPEED RADAR VIOLATIONS LOG - 2025-12-27 19:47:48
+SPEED RADAR VIOLATIONS LOG - 2026-01-01 17:28:19
 ====================================================================================================
 
 [VIOLATION] #1
-   License Plate: 82639-D-80
-   Vehicle ID: 4
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 24
-   Location: (398.39, 398.35)
+   License Plate: 36329-C-63
+   Vehicle ID: 5
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 67
+   Location: (902.23, 416.81)
    Speed Limit: 58 km/h
-   Actual Speed: 66.5 km/h
-   Overspeed: +8.9 km/h
+   Actual Speed: 60.5 km/h
+   Overspeed: +2.9 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #2
-   License Plate: 22990-B-68
-   Vehicle ID: 12
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 73
-   Location: (129.65, 398.60)
+   License Plate: 36503-ه-23
+   Vehicle ID: 7
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 77
+   Location: (889.41, 419.42)
    Speed Limit: 58 km/h
-   Actual Speed: 58.6 km/h
-   Overspeed: +1.0 km/h
+   Actual Speed: 76.6 km/h
+   Overspeed: +19.0 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #3
-   License Plate: 48897-و-32
-   Vehicle ID: 15
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 76
-   Location: (540.52, 415.10)
-   Speed Limit: 58 km/h
-   Actual Speed: 63.3 km/h
-   Overspeed: +5.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #4
-   License Plate: 30149-N-58
+   License Plate: 53822-ه-23
    Vehicle ID: 9
    Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 82
-   Location: (901.32, 419.95)
+   Time: Step 83
+   Location: (890.60, 416.23)
    Speed Limit: 58 km/h
-   Actual Speed: 65.4 km/h
-   Overspeed: +7.8 km/h
+   Actual Speed: 62.0 km/h
+   Overspeed: +4.4 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #4
+   License Plate: 36329-C-63
+   Vehicle ID: 5
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 90
+   Location: (542.15, 415.17)
+   Speed Limit: 58 km/h
+   Actual Speed: 60.7 km/h
+   Overspeed: +3.1 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #5
-   License Plate: 22990-B-68
-   Vehicle ID: 12
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 96
-   Location: (432.04, 398.84)
-   Speed Limit: 58 km/h
-   Actual Speed: 62.3 km/h
-   Overspeed: +4.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #6
-   License Plate: 94623-Q-17
-   Vehicle ID: 24
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 105
-   Location: (143.83, 398.88)
-   Speed Limit: 58 km/h
-   Actual Speed: 77.0 km/h
-   Overspeed: +19.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #7
-   License Plate: 94623-Q-17
-   Vehicle ID: 24
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 116
-   Location: (414.83, 398.53)
-   Speed Limit: 58 km/h
-   Actual Speed: 91.4 km/h
-   Overspeed: +33.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #8
-   License Plate: 93338-W-92
+   License Plate: 60246-K-48
    Vehicle ID: 19
    Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 131
-   Location: (870.06, 419.21)
-   Speed Limit: 58 km/h
-   Actual Speed: 63.4 km/h
-   Overspeed: +5.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #9
-   License Plate: 55793-ز-31
-   Vehicle ID: 31
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 141
-   Location: (145.05, 398.89)
-   Speed Limit: 58 km/h
-   Actual Speed: 82.8 km/h
-   Overspeed: +25.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #10
-   License Plate: 34052-د-93
-   Vehicle ID: 37
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 151
-   Location: (898.09, 419.74)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.5 km/h
-   Overspeed: +7.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #11
-   License Plate: 55793-ز-31
-   Vehicle ID: 31
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 153
-   Location: (408.67, 398.45)
-   Speed Limit: 58 km/h
-   Actual Speed: 76.5 km/h
-   Overspeed: +18.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #12
-   License Plate: 34052-د-93
-   Vehicle ID: 37
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 175
-   Location: (541.84, 415.15)
-   Speed Limit: 58 km/h
-   Actual Speed: 67.5 km/h
-   Overspeed: +9.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #13
-   License Plate: 68813-H-16
-   Vehicle ID: 45
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 183
-   Location: (887.81, 416.20)
-   Speed Limit: 58 km/h
-   Actual Speed: 62.5 km/h
-   Overspeed: +4.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #14
-   License Plate: 16709-F-15
-   Vehicle ID: 46
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 184
-   Location: (749.12, 403.90)
-   Speed Limit: 58 km/h
-   Actual Speed: 62.7 km/h
-   Overspeed: +5.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #15
-   License Plate: 43768-و-54
-   Vehicle ID: 50
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 199
-   Location: (880.70, 419.32)
-   Speed Limit: 58 km/h
-   Actual Speed: 63.3 km/h
-   Overspeed: +5.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #16
-   License Plate: 81859-T-89
-   Vehicle ID: 56
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 203
-   Location: (539.15, 415.05)
-   Speed Limit: 58 km/h
-   Actual Speed: 77.8 km/h
-   Overspeed: +20.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #17
-   License Plate: 21545-N-58
-   Vehicle ID: 51
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 206
-   Location: (899.64, 419.84)
-   Speed Limit: 58 km/h
-   Actual Speed: 66.0 km/h
-   Overspeed: +8.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #18
-   License Plate: 35167-T-25
-   Vehicle ID: 54
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 208
-   Location: (128.47, 398.58)
-   Speed Limit: 58 km/h
-   Actual Speed: 57.9 km/h
-   Overspeed: +0.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #19
-   License Plate: 81859-T-89
-   Vehicle ID: 56
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 215
-   Location: (281.21, 411.08)
-   Speed Limit: 58 km/h
-   Actual Speed: 79.0 km/h
-   Overspeed: +21.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #20
-   License Plate: 46172-ز-50
-   Vehicle ID: 64
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 219
-   Location: (545.66, 412.10)
-   Speed Limit: 58 km/h
-   Actual Speed: 68.8 km/h
-   Overspeed: +11.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #21
-   License Plate: 35167-T-25
-   Vehicle ID: 54
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 223
-   Location: (394.42, 398.32)
-   Speed Limit: 58 km/h
-   Actual Speed: 63.1 km/h
-   Overspeed: +5.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #22
-   License Plate: 71166-X-47
-   Vehicle ID: 63
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 241
-   Location: (128.25, 398.57)
+   Time: Step 115
+   Location: (903.03, 416.86)
    Speed Limit: 58 km/h
    Actual Speed: 58.2 km/h
    Overspeed: +0.6 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #23
-   License Plate: 73867-Q-19
-   Vehicle ID: 81
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 256
-   Location: (211.23, 396.37)
-   Speed Limit: 58 km/h
-   Actual Speed: 62.6 km/h
-   Overspeed: +5.0 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #24
-   License Plate: 35224-P-29
-   Vehicle ID: 70
+[VIOLATION] #6
+   License Plate: 79364-و-78
+   Vehicle ID: 27
    Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 274
-   Location: (893.51, 419.46)
+   Time: Step 139
+   Location: (894.92, 419.52)
    Speed Limit: 58 km/h
-   Actual Speed: 61.2 km/h
-   Overspeed: +3.6 km/h
+   Actual Speed: 66.4 km/h
+   Overspeed: +8.8 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #25
-   License Plate: 71166-X-47
+[VIOLATION] #7
+   License Plate: 36503-ه-23
+   Vehicle ID: 7
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 144
+   Location: (537.68, 415.01)
+   Speed Limit: 58 km/h
+   Actual Speed: 73.8 km/h
+   Overspeed: +16.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #8
+   License Plate: 79364-و-78
+   Vehicle ID: 27
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 160
+   Location: (538.67, 415.03)
+   Speed Limit: 58 km/h
+   Actual Speed: 69.7 km/h
+   Overspeed: +12.1 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #9
+   License Plate: 22600-Q-30
+   Vehicle ID: 45
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 185
+   Location: (889.13, 419.42)
+   Speed Limit: 58 km/h
+   Actual Speed: 63.7 km/h
+   Overspeed: +6.1 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #10
+   License Plate: 89908-د-51
+   Vehicle ID: 53
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 189
+   Location: (214.84, 409.87)
+   Speed Limit: 58 km/h
+   Actual Speed: 60.8 km/h
+   Overspeed: +3.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #11
+   License Plate: 68625-Q-79
+   Vehicle ID: 51
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 202
+   Location: (892.16, 419.45)
+   Speed Limit: 58 km/h
+   Actual Speed: 78.8 km/h
+   Overspeed: +21.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #12
+   License Plate: 71207-L-56
+   Vehicle ID: 54
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 206
+   Location: (132.14, 398.65)
+   Speed Limit: 58 km/h
+   Actual Speed: 59.0 km/h
+   Overspeed: +1.4 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #13
+   License Plate: 36582-V-13
+   Vehicle ID: 56
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 209
+   Location: (539.02, 415.05)
+   Speed Limit: 58 km/h
+   Actual Speed: 63.9 km/h
+   Overspeed: +6.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #14
+   License Plate: 17054-أ-96
+   Vehicle ID: 69
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 218
+   Location: (455.11, 446.58)
+   Speed Limit: 58 km/h
+   Actual Speed: 58.2 km/h
+   Overspeed: +0.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #15
+   License Plate: 71207-L-56
+   Vehicle ID: 54
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 220
+   Location: (392.70, 398.30)
+   Speed Limit: 58 km/h
+   Actual Speed: 67.1 km/h
+   Overspeed: +9.5 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #16
+   License Plate: 18816-ب-51
+   Vehicle ID: 71
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 221
+   Location: (482.56, 478.90)
+   Speed Limit: 58 km/h
+   Actual Speed: 60.8 km/h
+   Overspeed: +3.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #17
+   License Plate: 36582-V-13
+   Vehicle ID: 56
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 224
+   Location: (274.41, 411.01)
+   Speed Limit: 58 km/h
+   Actual Speed: 63.2 km/h
+   Overspeed: +5.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #18
+   License Plate: 28045-أ-42
+   Vehicle ID: 63
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 240
+   Location: (142.40, 398.86)
+   Speed Limit: 58 km/h
+   Actual Speed: 58.4 km/h
+   Overspeed: +0.8 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #19
+   License Plate: 74604-ز-77
+   Vehicle ID: 59
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 247
+   Location: (889.72, 419.42)
+   Speed Limit: 58 km/h
+   Actual Speed: 88.3 km/h
+   Overspeed: +30.7 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #20
+   License Plate: 66708-Y-51
+   Vehicle ID: 75
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 271
+   Location: (895.51, 416.36)
+   Speed Limit: 58 km/h
+   Actual Speed: 67.8 km/h
+   Overspeed: +10.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #21
+   License Plate: 28045-أ-42
    Vehicle ID: 63
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 275
-   Location: (422.22, 398.65)
+   Time: Step 276
+   Location: (429.67, 401.99)
    Speed Limit: 58 km/h
-   Actual Speed: 61.0 km/h
-   Overspeed: +3.4 km/h
+   Actual Speed: 59.2 km/h
+   Overspeed: +1.6 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #26
-   License Plate: 93524-ز-59
-   Vehicle ID: 78
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 279
-   Location: (894.25, 419.48)
+[VIOLATION] #22
+   License Plate: 74604-ز-77
+   Vehicle ID: 59
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 281
+   Location: (479.03, 482.01)
    Speed Limit: 58 km/h
-   Actual Speed: 71.7 km/h
-   Overspeed: +14.1 km/h
+   Actual Speed: 69.2 km/h
+   Overspeed: +11.6 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #27
-   License Plate: 46172-ز-50
-   Vehicle ID: 64
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 283
-   Location: (265.83, 351.38)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.7 km/h
-   Overspeed: +2.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #28
-   License Plate: 66749-Q-33
+[VIOLATION] #23
+   License Plate: 38207-F-91
    Vehicle ID: 98
    Radar: radar_2 - Near Marjane Junction , Farid al Ansary
    Time: Step 294
@@ -282,8 +232,18 @@ SPEED RADAR VIOLATIONS LOG - 2025-12-27 19:47:48
    Actual Speed: 67.3 km/h
    Overspeed: +9.7 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #29
-   License Plate: 10189-Z-37
+[VIOLATION] #24
+   License Plate: 88570-X-85
+   Vehicle ID: 67
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 301
+   Location: (753.99, 404.03)
+   Speed Limit: 58 km/h
+   Actual Speed: 61.1 km/h
+   Overspeed: +3.5 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #25
+   License Plate: 92304-D-28
    Vehicle ID: 108
    Radar: radar_2 - Near Marjane Junction , Farid al Ansary
    Time: Step 324
@@ -292,798 +252,858 @@ SPEED RADAR VIOLATIONS LOG - 2025-12-27 19:47:48
    Actual Speed: 63.9 km/h
    Overspeed: +6.3 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #30
-   License Plate: 97987-J-17
-   Vehicle ID: 27
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 326
-   Location: (546.95, 415.35)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.3 km/h
-   Overspeed: +0.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #31
-   License Plate: 33970-B-39
-   Vehicle ID: 115
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 357
-   Location: (452.57, 480.78)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.1 km/h
-   Overspeed: +3.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #32
-   License Plate: 66749-Q-33
-   Vehicle ID: 98
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 365
-   Location: (424.01, 398.69)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.7 km/h
-   Overspeed: +2.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #33
-   License Plate: 76888-C-70
-   Vehicle ID: 110
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 374
-   Location: (867.12, 407.99)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.4 km/h
-   Overspeed: +0.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #34
-   License Plate: 47755-A-34
-   Vehicle ID: 111
+[VIOLATION] #26
+   License Plate: 68226-N-62
+   Vehicle ID: 104
    Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 374
-   Location: (267.41, 454.18)
+   Time: Step 343
+   Location: (212.76, 409.85)
    Speed Limit: 58 km/h
-   Actual Speed: 67.9 km/h
-   Overspeed: +10.3 km/h
+   Actual Speed: 63.5 km/h
+   Overspeed: +5.9 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #35
-   License Plate: 10505-و-36
-   Vehicle ID: 119
+[VIOLATION] #27
+   License Plate: 24268-E-52
+   Vehicle ID: 73
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 378
-   Location: (540.36, 415.10)
-   Speed Limit: 58 km/h
-   Actual Speed: 62.4 km/h
-   Overspeed: +4.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #36
-   License Plate: 56813-N-37
-   Vehicle ID: 102
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 388
-   Location: (875.09, 419.26)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.3 km/h
-   Overspeed: +0.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #37
-   License Plate: 50874-S-15
-   Vehicle ID: 124
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 390
-   Location: (208.89, 399.53)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.7 km/h
-   Overspeed: +2.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #38
-   License Plate: 93442-ز-81
-   Vehicle ID: 131
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 401
-   Location: (474.78, 399.64)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.7 km/h
-   Overspeed: +7.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #39
-   License Plate: 13672-V-50
-   Vehicle ID: 118
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 402
-   Location: (751.60, 407.17)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.7 km/h
-   Overspeed: +2.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #40
-   License Plate: 40723-Z-89
-   Vehicle ID: 133
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 404
-   Location: (800.80, 336.44)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.9 km/h
-   Overspeed: +2.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #41
-   License Plate: 73919-R-50
-   Vehicle ID: 130
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 420
-   Location: (532.43, 411.66)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.4 km/h
-   Overspeed: +7.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #42
-   License Plate: 87394-ح-55
-   Vehicle ID: 147
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 443
-   Location: (888.47, 419.41)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.0 km/h
-   Overspeed: +3.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #43
-   License Plate: 40440-L-24
-   Vehicle ID: 123
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 456
-   Location: (753.48, 407.22)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.1 km/h
-   Overspeed: +0.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #44
-   License Plate: 69448-A-59
-   Vehicle ID: 146
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 458
-   Location: (404.57, 398.40)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.4 km/h
-   Overspeed: +7.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #45
-   License Plate: 69448-A-59
-   Vehicle ID: 146
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 482
-   Location: (758.35, 404.08)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.5 km/h
-   Overspeed: +6.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #46
-   License Plate: 80964-X-38
-   Vehicle ID: 144
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 489
-   Location: (533.40, 414.89)
-   Speed Limit: 58 km/h
-   Actual Speed: 88.0 km/h
-   Overspeed: +30.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #47
-   License Plate: 82533-ج-52
-   Vehicle ID: 155
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 505
-   Location: (129.78, 398.60)
-   Speed Limit: 58 km/h
-   Actual Speed: 62.3 km/h
-   Overspeed: +4.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #48
-   License Plate: 97844-C-90
-   Vehicle ID: 172
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 517
-   Location: (403.53, 398.39)
-   Speed Limit: 58 km/h
-   Actual Speed: 57.7 km/h
-   Overspeed: +0.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #49
-   License Plate: 52670-ه-48
-   Vehicle ID: 173
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 532
-   Location: (461.18, 446.69)
-   Speed Limit: 58 km/h
-   Actual Speed: 68.0 km/h
-   Overspeed: +10.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #50
-   License Plate: 25257-B-64
-   Vehicle ID: 157
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 534
-   Location: (540.28, 411.89)
-   Speed Limit: 58 km/h
-   Actual Speed: 66.8 km/h
-   Overspeed: +9.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #51
-   License Plate: 22577-L-23
-   Vehicle ID: 160
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 539
-   Location: (145.78, 395.70)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.4 km/h
-   Overspeed: +3.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #52
-   License Plate: 36921-ج-34
-   Vehicle ID: 166
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 544
-   Location: (410.90, 401.68)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.2 km/h
-   Overspeed: +1.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #53
-   License Plate: 18733-ب-16
-   Vehicle ID: 168
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 546
-   Location: (156.49, 399.01)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.1 km/h
-   Overspeed: +0.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #54
-   License Plate: 82533-ج-52
-   Vehicle ID: 155
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 548
-   Location: (464.48, 399.45)
-   Speed Limit: 58 km/h
-   Actual Speed: 57.6 km/h
-   Overspeed: +0.0 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #55
-   License Plate: 25257-B-64
-   Vehicle ID: 157
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 554
-   Location: (271.26, 407.76)
-   Speed Limit: 58 km/h
-   Actual Speed: 67.9 km/h
-   Overspeed: +10.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #56
-   License Plate: 93928-ه-54
-   Vehicle ID: 185
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 559
-   Location: (788.26, 346.50)
-   Speed Limit: 58 km/h
-   Actual Speed: 93.1 km/h
-   Overspeed: +35.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #57
-   License Plate: 18733-ب-16
-   Vehicle ID: 168
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 563
-   Location: (429.01, 398.78)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.2 km/h
-   Overspeed: +0.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #58
-   License Plate: 36921-ج-34
-   Vehicle ID: 166
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 566
-   Location: (745.79, 407.01)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.0 km/h
-   Overspeed: +7.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #59
-   License Plate: 82195-N-86
-   Vehicle ID: 210
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 669
-   Location: (391.74, 398.29)
-   Speed Limit: 58 km/h
-   Actual Speed: 79.7 km/h
-   Overspeed: +22.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #60
-   License Plate: 40685-E-69
-   Vehicle ID: 196
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 675
-   Location: (529.80, 414.79)
-   Speed Limit: 58 km/h
-   Actual Speed: 79.4 km/h
-   Overspeed: +21.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #61
-   License Plate: 19186-ب-93
-   Vehicle ID: 226
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 689
-   Location: (414.11, 398.53)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.5 km/h
-   Overspeed: +0.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #62
-   License Plate: 63567-M-49
-   Vehicle ID: 212
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 720
-   Location: (832.46, 418.79)
+   Time: Step 346
+   Location: (541.61, 415.14)
    Speed Limit: 58 km/h
    Actual Speed: 63.6 km/h
    Overspeed: +6.0 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #63
-   License Plate: 39856-ج-42
-   Vehicle ID: 237
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 735
-   Location: (131.36, 395.44)
+[VIOLATION] #28
+   License Plate: 38207-F-91
+   Vehicle ID: 98
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 365
+   Location: (424.84, 398.70)
    Speed Limit: 58 km/h
-   Actual Speed: 70.5 km/h
-   Overspeed: +12.9 km/h
+   Actual Speed: 62.1 km/h
+   Overspeed: +4.5 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #64
-   License Plate: 47667-R-46
-   Vehicle ID: 235
+[VIOLATION] #29
+   License Plate: 99591-ز-40
+   Vehicle ID: 102
    Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 739
-   Location: (752.12, 403.98)
+   Time: Step 374
+   Location: (892.48, 419.45)
    Speed Limit: 58 km/h
-   Actual Speed: 63.8 km/h
-   Overspeed: +6.2 km/h
+   Actual Speed: 68.3 km/h
+   Overspeed: +10.7 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #65
-   License Plate: 88954-A-89
-   Vehicle ID: 240
+[VIOLATION] #30
+   License Plate: 37581-د-17
+   Vehicle ID: 119
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 740
-   Location: (447.10, 399.12)
+   Time: Step 378
+   Location: (539.10, 415.05)
    Speed Limit: 58 km/h
-   Actual Speed: 65.4 km/h
-   Overspeed: +7.8 km/h
+   Actual Speed: 62.8 km/h
+   Overspeed: +5.2 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #66
-   License Plate: 39856-ج-42
-   Vehicle ID: 237
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 748
-   Location: (404.17, 398.39)
-   Speed Limit: 58 km/h
-   Actual Speed: 74.0 km/h
-   Overspeed: +16.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #67
-   License Plate: 51065-ز-28
-   Vehicle ID: 246
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 772
-   Location: (143.42, 398.87)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.7 km/h
-   Overspeed: +1.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #68
-   License Plate: 97010-ه-10
-   Vehicle ID: 256
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 777
-   Location: (128.58, 398.58)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.1 km/h
-   Overspeed: +1.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #69
-   License Plate: 17625-F-19
-   Vehicle ID: 258
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 782
-   Location: (413.30, 367.64)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.4 km/h
-   Overspeed: +6.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #70
-   License Plate: 97948-ج-37
-   Vehicle ID: 253
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 783
-   Location: (267.41, 449.48)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.2 km/h
-   Overspeed: +6.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #71
-   License Plate: 62675-ج-42
-   Vehicle ID: 251
+[VIOLATION] #31
+   License Plate: 65083-ز-89
+   Vehicle ID: 118
    Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 793
-   Location: (894.35, 419.49)
+   Time: Step 393
+   Location: (761.01, 407.31)
    Speed Limit: 58 km/h
-   Actual Speed: 60.2 km/h
-   Overspeed: +2.6 km/h
+   Actual Speed: 57.9 km/h
+   Overspeed: +0.3 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #72
-   License Plate: 97948-ج-37
-   Vehicle ID: 253
+[VIOLATION] #32
+   License Plate: 99591-ز-40
+   Vehicle ID: 102
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 796
-   Location: (406.43, 398.42)
+   Time: Step 425
+   Location: (532.61, 411.66)
    Speed Limit: 58 km/h
-   Actual Speed: 68.5 km/h
-   Overspeed: +10.9 km/h
+   Actual Speed: 66.4 km/h
+   Overspeed: +8.8 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #73
-   License Plate: 92778-ه-13
-   Vehicle ID: 264
+[VIOLATION] #33
+   License Plate: 64498-ح-56
+   Vehicle ID: 117
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 799
-   Location: (448.64, 357.81)
+   Time: Step 430
+   Location: (435.64, 413.17)
+   Speed Limit: 58 km/h
+   Actual Speed: 57.9 km/h
+   Overspeed: +0.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #34
+   License Plate: 45592-C-27
+   Vehicle ID: 127
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 438
+   Location: (897.32, 419.69)
+   Speed Limit: 58 km/h
+   Actual Speed: 73.4 km/h
+   Overspeed: +15.8 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #35
+   License Plate: 38967-ج-53
+   Vehicle ID: 147
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 442
+   Location: (901.66, 419.98)
+   Speed Limit: 58 km/h
+   Actual Speed: 73.9 km/h
+   Overspeed: +16.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #36
+   License Plate: 99294-أ-66
+   Vehicle ID: 123
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 455
+   Location: (756.40, 404.06)
+   Speed Limit: 58 km/h
+   Actual Speed: 63.6 km/h
+   Overspeed: +6.0 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #37
+   License Plate: 12424-Y-90
+   Vehicle ID: 129
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 455
+   Location: (756.79, 407.27)
+   Speed Limit: 58 km/h
+   Actual Speed: 62.9 km/h
+   Overspeed: +5.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #38
+   License Plate: 64498-ح-56
+   Vehicle ID: 117
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 463
+   Location: (205.17, 409.78)
+   Speed Limit: 58 km/h
+   Actual Speed: 57.8 km/h
+   Overspeed: +0.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #39
+   License Plate: 55435-V-10
+   Vehicle ID: 149
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 492
+   Location: (893.19, 419.46)
+   Speed Limit: 58 km/h
+   Actual Speed: 67.1 km/h
+   Overspeed: +9.5 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #40
+   License Plate: 66914-K-77
+   Vehicle ID: 160
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 508
+   Location: (135.61, 395.53)
+   Speed Limit: 58 km/h
+   Actual Speed: 77.1 km/h
+   Overspeed: +19.5 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #41
+   License Plate: 12142-د-52
+   Vehicle ID: 172
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 517
+   Location: (405.27, 398.41)
+   Speed Limit: 58 km/h
+   Actual Speed: 63.9 km/h
+   Overspeed: +6.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #42
+   License Plate: 32744-B-33
+   Vehicle ID: 140
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 518
+   Location: (894.60, 419.50)
+   Speed Limit: 58 km/h
+   Actual Speed: 86.9 km/h
+   Overspeed: +29.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #43
+   License Plate: 32827-S-79
+   Vehicle ID: 168
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 541
+   Location: (133.73, 398.69)
+   Speed Limit: 58 km/h
+   Actual Speed: 62.7 km/h
+   Overspeed: +5.1 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #44
+   License Plate: 82547-ج-37
+   Vehicle ID: 166
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 546
+   Location: (432.79, 398.85)
+   Speed Limit: 58 km/h
+   Actual Speed: 64.0 km/h
+   Overspeed: +6.4 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #45
+   License Plate: 68833-ح-50
+   Vehicle ID: 170
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 548
+   Location: (423.14, 401.87)
    Speed Limit: 58 km/h
    Actual Speed: 58.1 km/h
    Overspeed: +0.5 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #74
-   License Plate: 39856-ج-42
-   Vehicle ID: 237
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 814
-   Location: (755.40, 404.05)
-   Speed Limit: 58 km/h
-   Actual Speed: 72.1 km/h
-   Overspeed: +14.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #75
-   License Plate: 51065-ز-28
-   Vehicle ID: 246
+[VIOLATION] #46
+   License Plate: 32827-S-79
+   Vehicle ID: 168
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 815
-   Location: (422.14, 398.65)
+   Time: Step 555
+   Location: (393.75, 398.31)
    Speed Limit: 58 km/h
-   Actual Speed: 59.6 km/h
-   Overspeed: +2.0 km/h
+   Actual Speed: 67.4 km/h
+   Overspeed: +9.8 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #76
-   License Plate: 88954-A-89
-   Vehicle ID: 240
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 816
-   Location: (769.04, 407.41)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.1 km/h
-   Overspeed: +7.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #77
-   License Plate: 63567-M-49
-   Vehicle ID: 212
+[VIOLATION] #47
+   License Plate: 94632-Z-98
+   Vehicle ID: 165
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 818
-   Location: (519.46, 414.56)
+   Time: Step 556
+   Location: (546.35, 415.33)
    Speed Limit: 58 km/h
-   Actual Speed: 60.0 km/h
-   Overspeed: +2.4 km/h
+   Actual Speed: 76.0 km/h
+   Overspeed: +18.4 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #78
-   License Plate: 17625-F-19
-   Vehicle ID: 258
+[VIOLATION] #48
+   License Plate: 48015-E-49
+   Vehicle ID: 185
    Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 821
-   Location: (766.25, 404.17)
+   Time: Step 559
+   Location: (795.64, 340.58)
    Speed Limit: 58 km/h
-   Actual Speed: 78.4 km/h
-   Overspeed: +20.8 km/h
+   Actual Speed: 82.2 km/h
+   Overspeed: +24.6 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #79
-   License Plate: 92778-ه-13
-   Vehicle ID: 264
+[VIOLATION] #49
+   License Plate: 94660-V-24
+   Vehicle ID: 158
    Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 823
-   Location: (754.73, 407.24)
-   Speed Limit: 58 km/h
-   Actual Speed: 78.7 km/h
-   Overspeed: +21.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #80
-   License Plate: 63567-M-49
-   Vehicle ID: 212
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 834
-   Location: (276.59, 411.04)
-   Speed Limit: 58 km/h
-   Actual Speed: 66.8 km/h
-   Overspeed: +9.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #81
-   License Plate: 53962-K-26
-   Vehicle ID: 268
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 834
-   Location: (401.11, 398.37)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.2 km/h
-   Overspeed: +7.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #82
-   License Plate: 52759-X-77
-   Vehicle ID: 269
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 837
-   Location: (127.28, 398.55)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.6 km/h
-   Overspeed: +1.0 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #83
-   License Plate: 52759-X-77
-   Vehicle ID: 269
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 853
-   Location: (391.78, 401.49)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.1 km/h
-   Overspeed: +2.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #84
-   License Plate: 49208-A-68
-   Vehicle ID: 294
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 922
-   Location: (218.99, 473.41)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.7 km/h
-   Overspeed: +1.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #85
-   License Plate: 43398-T-77
-   Vehicle ID: 296
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 995
-   Location: (757.00, 404.07)
-   Speed Limit: 58 km/h
-   Actual Speed: 66.7 km/h
-   Overspeed: +9.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #86
-   License Plate: 99550-H-60
-   Vehicle ID: 319
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1003
-   Location: (758.85, 404.09)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.2 km/h
-   Overspeed: +7.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #87
-   License Plate: 38417-و-51
-   Vehicle ID: 320
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1004
-   Location: (393.44, 398.31)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.2 km/h
-   Overspeed: +2.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #88
-   License Plate: 75021-W-15
-   Vehicle ID: 328
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1014
-   Location: (145.16, 395.69)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.4 km/h
-   Overspeed: +7.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #89
-   License Plate: 45385-J-12
-   Vehicle ID: 333
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1019
-   Location: (884.91, 419.37)
-   Speed Limit: 58 km/h
-   Actual Speed: 79.6 km/h
-   Overspeed: +22.0 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #90
-   License Plate: 75021-W-15
-   Vehicle ID: 328
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1028
-   Location: (399.20, 398.35)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.8 km/h
-   Overspeed: +8.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #91
-   License Plate: 91491-ب-24
-   Vehicle ID: 339
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1057
-   Location: (879.93, 419.31)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.9 km/h
-   Overspeed: +1.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #92
-   License Plate: 26001-ز-86
-   Vehicle ID: 336
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1064
-   Location: (894.71, 419.51)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.5 km/h
-   Overspeed: +2.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #93
-   License Plate: 54625-J-21
-   Vehicle ID: 350
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1069
-   Location: (265.78, 367.59)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.9 km/h
-   Overspeed: +1.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #94
-   License Plate: 75021-W-15
-   Vehicle ID: 328
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1096
-   Location: (758.86, 407.29)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.3 km/h
-   Overspeed: +7.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #95
-   License Plate: 97897-ج-24
-   Vehicle ID: 364
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1098
-   Location: (486.99, 482.23)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.0 km/h
-   Overspeed: +7.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #96
-   License Plate: 54367-T-24
-   Vehicle ID: 363
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1111
-   Location: (269.05, 368.45)
+   Time: Step 561
+   Location: (762.17, 418.08)
    Speed Limit: 58 km/h
    Actual Speed: 63.1 km/h
    Overspeed: +5.5 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #97
-   License Plate: 97337-A-89
-   Vehicle ID: 17
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1115
-   Location: (519.46, 414.56)
+[VIOLATION] #50
+   License Plate: 15695-Y-69
+   Vehicle ID: 183
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 561
+   Location: (894.10, 419.47)
    Speed Limit: 58 km/h
-   Actual Speed: 60.0 km/h
-   Overspeed: +2.4 km/h
+   Actual Speed: 71.4 km/h
+   Overspeed: +13.8 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #51
+   License Plate: 82547-ج-37
+   Vehicle ID: 166
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 567
+   Location: (747.40, 403.85)
+   Speed Limit: 58 km/h
+   Actual Speed: 65.8 km/h
+   Overspeed: +8.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #52
+   License Plate: 25150-ز-51
+   Vehicle ID: 178
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 579
+   Location: (896.64, 419.64)
+   Speed Limit: 58 km/h
+   Actual Speed: 62.6 km/h
+   Overspeed: +5.0 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #53
+   License Plate: 81395-ح-60
+   Vehicle ID: 192
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 581
+   Location: (888.59, 419.41)
+   Speed Limit: 58 km/h
+   Actual Speed: 62.9 km/h
+   Overspeed: +5.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #54
+   License Plate: 22266-V-92
+   Vehicle ID: 208
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 656
+   Location: (396.00, 398.33)
+   Speed Limit: 58 km/h
+   Actual Speed: 62.2 km/h
+   Overspeed: +4.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #55
+   License Plate: 28695-X-19
+   Vehicle ID: 221
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 663
+   Location: (770.08, 418.41)
+   Speed Limit: 58 km/h
+   Actual Speed: 68.9 km/h
+   Overspeed: +11.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #56
+   License Plate: 10044-E-76
+   Vehicle ID: 205
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 672
+   Location: (888.46, 419.41)
+   Speed Limit: 58 km/h
+   Actual Speed: 58.6 km/h
+   Overspeed: +1.0 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #57
+   License Plate: 38250-L-67
+   Vehicle ID: 215
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 676
+   Location: (140.60, 398.83)
+   Speed Limit: 58 km/h
+   Actual Speed: 66.6 km/h
+   Overspeed: +9.0 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #58
+   License Plate: 10479-ب-45
+   Vehicle ID: 217
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 693
+   Location: (534.95, 411.73)
+   Speed Limit: 58 km/h
+   Actual Speed: 57.6 km/h
+   Overspeed: +0.0 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #59
+   License Plate: 39994-P-57
+   Vehicle ID: 209
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 699
+   Location: (894.82, 419.52)
+   Speed Limit: 58 km/h
+   Actual Speed: 74.8 km/h
+   Overspeed: +17.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #60
+   License Plate: 22266-V-92
+   Vehicle ID: 208
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 725
+   Location: (757.15, 404.07)
+   Speed Limit: 58 km/h
+   Actual Speed: 61.9 km/h
+   Overspeed: +4.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #61
+   License Plate: 38250-L-67
+   Vehicle ID: 215
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 725
+   Location: (420.02, 398.61)
+   Speed Limit: 58 km/h
+   Actual Speed: 60.2 km/h
+   Overspeed: +2.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #62
+   License Plate: 83089-و-65
+   Vehicle ID: 240
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 748
+   Location: (539.76, 400.91)
+   Speed Limit: 58 km/h
+   Actual Speed: 58.3 km/h
+   Overspeed: +0.7 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #63
+   License Plate: 26482-P-91
+   Vehicle ID: 236
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 765
+   Location: (887.61, 419.40)
+   Speed Limit: 58 km/h
+   Actual Speed: 66.1 km/h
+   Overspeed: +8.5 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #64
+   License Plate: 15643-أ-39
+   Vehicle ID: 246
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 771
+   Location: (132.04, 398.65)
+   Speed Limit: 58 km/h
+   Actual Speed: 62.5 km/h
+   Overspeed: +4.9 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #65
+   License Plate: 97468-B-60
+   Vehicle ID: 238
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 789
+   Location: (893.64, 419.46)
+   Speed Limit: 58 km/h
+   Actual Speed: 89.5 km/h
+   Overspeed: +31.9 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #66
+   License Plate: 24799-K-64
+   Vehicle ID: 258
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 790
+   Location: (460.23, 399.37)
+   Speed Limit: 58 km/h
+   Actual Speed: 60.3 km/h
+   Overspeed: +2.7 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #67
+   License Plate: 24925-P-52
+   Vehicle ID: 248
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 806
+   Location: (139.24, 395.60)
+   Speed Limit: 58 km/h
+   Actual Speed: 66.3 km/h
+   Overspeed: +8.7 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #68
+   License Plate: 24799-K-64
+   Vehicle ID: 258
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 814
+   Location: (753.76, 404.03)
+   Speed Limit: 58 km/h
+   Actual Speed: 67.2 km/h
+   Overspeed: +9.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #69
+   License Plate: 15643-أ-39
+   Vehicle ID: 246
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 815
+   Location: (428.87, 398.78)
+   Speed Limit: 58 km/h
+   Actual Speed: 66.4 km/h
+   Overspeed: +8.8 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #70
+   License Plate: 83089-و-65
+   Vehicle ID: 240
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 817
+   Location: (779.55, 407.53)
+   Speed Limit: 58 km/h
+   Actual Speed: 57.8 km/h
+   Overspeed: +0.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #71
+   License Plate: 24925-P-52
+   Vehicle ID: 248
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 820
+   Location: (396.57, 398.33)
+   Speed Limit: 58 km/h
+   Actual Speed: 66.7 km/h
+   Overspeed: +9.1 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #72
+   License Plate: 71084-R-55
+   Vehicle ID: 253
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 820
+   Location: (491.28, 399.95)
+   Speed Limit: 58 km/h
+   Actual Speed: 59.6 km/h
+   Overspeed: +2.0 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #73
+   License Plate: 47729-R-70
+   Vehicle ID: 264
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 832
+   Location: (756.49, 407.26)
+   Speed Limit: 58 km/h
+   Actual Speed: 66.8 km/h
+   Overspeed: +9.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #74
+   License Plate: 94456-H-25
+   Vehicle ID: 268
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 836
+   Location: (403.76, 398.39)
+   Speed Limit: 58 km/h
+   Actual Speed: 59.2 km/h
+   Overspeed: +1.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #75
+   License Plate: 87149-P-20
+   Vehicle ID: 269
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 838
+   Location: (147.04, 398.91)
+   Speed Limit: 58 km/h
+   Actual Speed: 61.1 km/h
+   Overspeed: +3.5 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #76
+   License Plate: 87149-P-20
+   Vehicle ID: 269
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 853
+   Location: (403.84, 398.39)
+   Speed Limit: 58 km/h
+   Actual Speed: 61.9 km/h
+   Overspeed: +4.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #77
+   License Plate: 35958-أ-78
+   Vehicle ID: 281
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 862
+   Location: (543.98, 415.24)
+   Speed Limit: 58 km/h
+   Actual Speed: 67.1 km/h
+   Overspeed: +9.5 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #78
+   License Plate: 97468-B-60
+   Vehicle ID: 238
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 865
+   Location: (527.83, 414.73)
+   Speed Limit: 58 km/h
+   Actual Speed: 88.1 km/h
+   Overspeed: +30.5 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #79
+   License Plate: 65081-A-18
+   Vehicle ID: 274
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 877
+   Location: (900.47, 419.90)
+   Speed Limit: 58 km/h
+   Actual Speed: 59.1 km/h
+   Overspeed: +1.5 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #80
+   License Plate: 62775-G-83
+   Vehicle ID: 283
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 880
+   Location: (533.46, 414.89)
+   Speed Limit: 58 km/h
+   Actual Speed: 62.8 km/h
+   Overspeed: +5.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #81
+   License Plate: 40034-د-61
+   Vehicle ID: 270
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 883
+   Location: (902.13, 420.01)
+   Speed Limit: 58 km/h
+   Actual Speed: 75.4 km/h
+   Overspeed: +17.8 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #82
+   License Plate: 24877-H-77
+   Vehicle ID: 277
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 895
+   Location: (886.99, 419.39)
+   Speed Limit: 58 km/h
+   Actual Speed: 66.3 km/h
+   Overspeed: +8.7 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #83
+   License Plate: 41973-X-51
+   Vehicle ID: 280
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 896
+   Location: (901.76, 419.98)
+   Speed Limit: 58 km/h
+   Actual Speed: 62.3 km/h
+   Overspeed: +4.7 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #84
+   License Plate: 97468-B-60
+   Vehicle ID: 238
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 916
+   Location: (205.19, 446.40)
+   Speed Limit: 58 km/h
+   Actual Speed: 72.0 km/h
+   Overspeed: +14.4 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #85
+   License Plate: 79576-R-48
+   Vehicle ID: 284
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 917
+   Location: (893.95, 419.47)
+   Speed Limit: 58 km/h
+   Actual Speed: 58.3 km/h
+   Overspeed: +0.7 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #86
+   License Plate: 64579-J-21
+   Vehicle ID: 279
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 922
+   Location: (897.19, 419.68)
+   Speed Limit: 58 km/h
+   Actual Speed: 60.1 km/h
+   Overspeed: +2.5 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #87
+   License Plate: 72933-Z-10
+   Vehicle ID: 294
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 922
+   Location: (213.37, 473.40)
+   Speed Limit: 58 km/h
+   Actual Speed: 59.8 km/h
+   Overspeed: +2.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #88
+   License Plate: 24877-H-77
+   Vehicle ID: 277
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 958
+   Location: (537.02, 414.99)
+   Speed Limit: 58 km/h
+   Actual Speed: 64.2 km/h
+   Overspeed: +6.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #89
+   License Plate: 36959-Q-68
+   Vehicle ID: 305
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 995
+   Location: (757.43, 404.07)
+   Speed Limit: 58 km/h
+   Actual Speed: 63.4 km/h
+   Overspeed: +5.8 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #90
+   License Plate: 96587-ح-79
+   Vehicle ID: 325
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 996
+   Location: (540.05, 415.08)
+   Speed Limit: 58 km/h
+   Actual Speed: 67.0 km/h
+   Overspeed: +9.4 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #91
+   License Plate: 93189-C-88
+   Vehicle ID: 296
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1001
+   Location: (829.72, 404.74)
+   Speed Limit: 58 km/h
+   Actual Speed: 59.5 km/h
+   Overspeed: +1.9 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #92
+   License Plate: 87067-ح-38
+   Vehicle ID: 315
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1001
+   Location: (889.90, 419.42)
+   Speed Limit: 58 km/h
+   Actual Speed: 61.2 km/h
+   Overspeed: +3.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #93
+   License Plate: 82809-د-23
+   Vehicle ID: 327
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 1002
+   Location: (129.63, 398.60)
+   Speed Limit: 58 km/h
+   Actual Speed: 64.9 km/h
+   Overspeed: +7.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #94
+   License Plate: 85231-B-80
+   Vehicle ID: 319
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1004
+   Location: (754.59, 404.04)
+   Speed Limit: 58 km/h
+   Actual Speed: 65.4 km/h
+   Overspeed: +7.8 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #95
+   License Plate: 35911-A-27
+   Vehicle ID: 328
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 1013
+   Location: (144.79, 395.69)
+   Speed Limit: 58 km/h
+   Actual Speed: 67.9 km/h
+   Overspeed: +10.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #96
+   License Plate: 82809-د-23
+   Vehicle ID: 327
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1016
+   Location: (394.00, 398.31)
+   Speed Limit: 58 km/h
+   Actual Speed: 68.4 km/h
+   Overspeed: +10.8 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #97
+   License Plate: 35911-A-27
+   Vehicle ID: 328
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1027
+   Location: (403.53, 398.39)
+   Speed Limit: 58 km/h
+   Actual Speed: 66.7 km/h
+   Overspeed: +9.1 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #98
-   License Plate: 97897-ج-24
-   Vehicle ID: 364
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1120
-   Location: (268.66, 410.93)
+   License Plate: 42677-ح-94
+   Vehicle ID: 329
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1056
+   Location: (536.10, 414.96)
    Speed Limit: 58 km/h
-   Actual Speed: 75.8 km/h
-   Overspeed: +18.2 km/h
+   Actual Speed: 65.7 km/h
+   Overspeed: +8.1 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #99
-   License Plate: 61802-K-84
-   Vehicle ID: 306
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1139
-   Location: (542.32, 415.17)
+   License Plate: 50235-M-18
+   Vehicle ID: 339
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1056
+   Location: (886.29, 419.38)
    Speed Limit: 58 km/h
-   Actual Speed: 89.4 km/h
-   Overspeed: +31.8 km/h
+   Actual Speed: 73.1 km/h
+   Overspeed: +15.5 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #100
-   License Plate: 23129-د-95
-   Vehicle ID: 381
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1143
-   Location: (282.41, 400.51)
+   License Plate: 19384-V-16
+   Vehicle ID: 333
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1057
+   Location: (543.74, 415.23)
    Speed Limit: 58 km/h
-   Actual Speed: 57.7 km/h
-   Overspeed: +0.1 km/h
+   Actual Speed: 66.3 km/h
+   Overspeed: +8.7 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #101
-   License Plate: 35224-P-29
-   Vehicle ID: 70
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1150
-   Location: (544.99, 412.07)
+   License Plate: 82809-د-23
+   Vehicle ID: 327
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1085
+   Location: (754.67, 404.04)
    Speed Limit: 58 km/h
    Actual Speed: 60.5 km/h
    Overspeed: +2.9 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #102
-   License Plate: 45385-J-12
-   Vehicle ID: 333
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1153
-   Location: (538.58, 415.03)
+   License Plate: 99791-W-60
+   Vehicle ID: 349
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1089
+   Location: (746.13, 403.81)
    Speed Limit: 58 km/h
-   Actual Speed: 60.2 km/h
-   Overspeed: +2.6 km/h
+   Actual Speed: 57.6 km/h
+   Overspeed: +0.0 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #103
-   License Plate: 79967-X-43
+   License Plate: 35911-A-27
+   Vehicle ID: 328
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1095
+   Location: (760.59, 404.11)
+   Speed Limit: 58 km/h
+   Actual Speed: 67.8 km/h
+   Overspeed: +10.2 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #104
+   License Plate: 39668-Q-22
+   Vehicle ID: 364
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 1122
+   Location: (280.95, 411.08)
+   Speed Limit: 58 km/h
+   Actual Speed: 62.4 km/h
+   Overspeed: +4.8 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #105
+   License Plate: 87847-A-86
+   Vehicle ID: 366
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 1137
+   Location: (130.43, 395.42)
+   Speed Limit: 58 km/h
+   Actual Speed: 58.5 km/h
+   Overspeed: +0.9 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #106
+   License Plate: 67526-G-70
    Vehicle ID: 382
    Radar: radar_2 - Near Marjane Junction , Farid al Ansary
    Time: Step 1160
-   Location: (267.42, 447.26)
+   Location: (267.45, 442.25)
    Speed Limit: 58 km/h
-   Actual Speed: 59.7 km/h
-   Overspeed: +2.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #104
-   License Plate: 30919-Q-77
-   Vehicle ID: 367
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1162
-   Location: (472.39, 410.58)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.5 km/h
-   Overspeed: +1.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #105
-   License Plate: 35224-P-29
-   Vehicle ID: 70
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1180
-   Location: (275.33, 411.02)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.7 km/h
-   Overspeed: +4.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #106
-   License Plate: 79967-X-43
-   Vehicle ID: 382
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1181
-   Location: (422.39, 398.66)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.4 km/h
-   Overspeed: +0.8 km/h
+   Actual Speed: 60.0 km/h
+   Overspeed: +2.4 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #107
-   License Plate: 10772-K-74
-   Vehicle ID: 61
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1184
-   Location: (279.42, 411.07)
+   License Plate: 87847-A-86
+   Vehicle ID: 366
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1176
+   Location: (433.41, 398.86)
    Speed Limit: 58 km/h
-   Actual Speed: 66.1 km/h
-   Overspeed: +8.5 km/h
+   Actual Speed: 64.9 km/h
+   Overspeed: +7.3 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #108
-   License Plate: 68975-A-74
-   Vehicle ID: 398
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1198
-   Location: (785.21, 348.95)
+   License Plate: 42381-L-78
+   Vehicle ID: 391
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1197
+   Location: (537.99, 411.81)
    Speed Limit: 58 km/h
-   Actual Speed: 93.3 km/h
-   Overspeed: +35.7 km/h
+   Actual Speed: 92.3 km/h
+   Overspeed: +34.7 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #109
-   License Plate: 33200-R-67
+   License Plate: 17522-K-12
+   Vehicle ID: 398
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1199
+   Location: (788.81, 346.06)
+   Speed Limit: 58 km/h
+   Actual Speed: 68.2 km/h
+   Overspeed: +10.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #110
+   License Plate: 67526-G-70
+   Vehicle ID: 382
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1264
+   Location: (752.20, 403.99)
+   Speed Limit: 58 km/h
+   Actual Speed: 67.6 km/h
+   Overspeed: +10.0 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #111
+   License Plate: 99010-K-18
    Vehicle ID: 429
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
    Time: Step 1287
@@ -1092,28 +1112,48 @@ SPEED RADAR VIOLATIONS LOG - 2025-12-27 19:47:48
    Actual Speed: 61.4 km/h
    Overspeed: +3.8 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #110
-   License Plate: 30955-J-36
-   Vehicle ID: 418
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1307
-   Location: (835.58, 489.17)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.5 km/h
-   Overspeed: +7.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #111
-   License Plate: 85551-V-44
-   Vehicle ID: 292
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1318
-   Location: (770.31, 415.22)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.0 km/h
-   Overspeed: +2.4 km/h
---------------------------------------------------------------------------------
 [VIOLATION] #112
-   License Plate: 76048-ج-57
+   License Plate: 11344-M-75
+   Vehicle ID: 437
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 1313
+   Location: (134.91, 395.51)
+   Speed Limit: 58 km/h
+   Actual Speed: 71.0 km/h
+   Overspeed: +13.4 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #113
+   License Plate: 11344-M-75
+   Vehicle ID: 437
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1327
+   Location: (406.90, 398.43)
+   Speed Limit: 58 km/h
+   Actual Speed: 70.2 km/h
+   Overspeed: +12.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #114
+   License Plate: 89102-L-79
+   Vehicle ID: 426
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1355
+   Location: (425.43, 398.71)
+   Speed Limit: 58 km/h
+   Actual Speed: 67.5 km/h
+   Overspeed: +9.9 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #115
+   License Plate: 69193-ه-37
+   Vehicle ID: 224
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1375
+   Location: (511.54, 414.43)
+   Speed Limit: 58 km/h
+   Actual Speed: 60.7 km/h
+   Overspeed: +3.1 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #116
+   License Plate: 53587-X-95
    Vehicle ID: 460
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
    Time: Step 1380
@@ -1122,8 +1162,8 @@ SPEED RADAR VIOLATIONS LOG - 2025-12-27 19:47:48
    Actual Speed: 67.5 km/h
    Overspeed: +9.9 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #113
-   License Plate: 50137-A-22
+[VIOLATION] #117
+   License Plate: 87732-D-20
    Vehicle ID: 462
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
    Time: Step 1386
@@ -1132,328 +1172,258 @@ SPEED RADAR VIOLATIONS LOG - 2025-12-27 19:47:48
    Actual Speed: 60.3 km/h
    Overspeed: +2.7 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #114
-   License Plate: 33980-H-78
-   Vehicle ID: 455
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1388
-   Location: (267.45, 442.60)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.7 km/h
-   Overspeed: +2.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #115
-   License Plate: 78094-J-71
-   Vehicle ID: 453
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1407
-   Location: (265.85, 350.88)
-   Speed Limit: 58 km/h
-   Actual Speed: 63.4 km/h
-   Overspeed: +5.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #116
-   License Plate: 33980-H-78
-   Vehicle ID: 455
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1444
-   Location: (414.45, 398.53)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.2 km/h
-   Overspeed: +3.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #117
-   License Plate: 49928-D-48
-   Vehicle ID: 479
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1450
-   Location: (267.39, 452.63)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.2 km/h
-   Overspeed: +7.6 km/h
---------------------------------------------------------------------------------
 [VIOLATION] #118
-   License Plate: 44471-W-60
-   Vehicle ID: 466
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1456
-   Location: (836.47, 489.41)
+   License Plate: 33610-E-82
+   Vehicle ID: 275
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1452
+   Location: (537.18, 411.79)
    Speed Limit: 58 km/h
-   Actual Speed: 61.7 km/h
-   Overspeed: +4.1 km/h
+   Actual Speed: 66.6 km/h
+   Overspeed: +9.0 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #119
-   License Plate: 88129-Q-15
+   License Plate: 37241-ز-97
    Vehicle ID: 490
    Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
    Time: Step 1475
-   Location: (796.12, 340.20)
+   Location: (798.38, 338.38)
    Speed Limit: 58 km/h
-   Actual Speed: 90.0 km/h
-   Overspeed: +32.4 km/h
+   Actual Speed: 90.9 km/h
+   Overspeed: +33.3 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #120
-   License Plate: 40152-P-65
-   Vehicle ID: 494
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1487
-   Location: (185.46, 473.36)
+   License Plate: 27778-ب-54
+   Vehicle ID: 487
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1500
+   Location: (483.78, 410.77)
    Speed Limit: 58 km/h
-   Actual Speed: 58.1 km/h
-   Overspeed: +0.5 km/h
+   Actual Speed: 59.2 km/h
+   Overspeed: +1.6 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #121
-   License Plate: 40152-P-65
-   Vehicle ID: 494
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   License Plate: 74215-أ-70
+   Vehicle ID: 482
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
    Time: Step 1505
-   Location: (457.11, 479.42)
+   Location: (173.42, 473.83)
    Speed Limit: 58 km/h
-   Actual Speed: 64.3 km/h
-   Overspeed: +6.7 km/h
+   Actual Speed: 57.8 km/h
+   Overspeed: +0.2 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #122
-   License Plate: 96435-V-12
-   Vehicle ID: 516
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1564
-   Location: (139.03, 395.60)
+   License Plate: 80857-أ-66
+   Vehicle ID: 503
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1512
+   Location: (497.01, 450.52)
    Speed Limit: 58 km/h
-   Actual Speed: 82.1 km/h
-   Overspeed: +24.5 km/h
+   Actual Speed: 68.5 km/h
+   Overspeed: +10.9 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #123
-   License Plate: 57296-Z-69
-   Vehicle ID: 506
+   License Plate: 94145-R-29
+   Vehicle ID: 485
    Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1579
-   Location: (882.17, 419.34)
+   Time: Step 1535
+   Location: (754.02, 404.03)
    Speed Limit: 58 km/h
-   Actual Speed: 68.6 km/h
-   Overspeed: +11.0 km/h
+   Actual Speed: 57.8 km/h
+   Overspeed: +0.2 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #124
-   License Plate: 79528-S-73
-   Vehicle ID: 514
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1601
-   Location: (889.53, 419.42)
+   License Plate: 27778-ب-54
+   Vehicle ID: 487
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 1538
+   Location: (270.36, 407.75)
    Speed Limit: 58 km/h
-   Actual Speed: 70.2 km/h
-   Overspeed: +12.6 km/h
+   Actual Speed: 67.8 km/h
+   Overspeed: +10.2 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #125
-   License Plate: 11652-X-93
-   Vehicle ID: 521
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1614
-   Location: (879.47, 419.31)
+   License Plate: 39480-و-76
+   Vehicle ID: 522
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1584
+   Location: (446.98, 399.12)
    Speed Limit: 58 km/h
-   Actual Speed: 58.2 km/h
-   Overspeed: +0.6 km/h
+   Actual Speed: 64.8 km/h
+   Overspeed: +7.2 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #126
-   License Plate: 96435-V-12
-   Vehicle ID: 516
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1624
-   Location: (416.19, 398.55)
-   Speed Limit: 58 km/h
-   Actual Speed: 73.3 km/h
-   Overspeed: +15.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #127
-   License Plate: 34541-H-92
-   Vehicle ID: 535
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   License Plate: 96825-A-83
+   Vehicle ID: 527
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
    Time: Step 1625
-   Location: (394.21, 398.31)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.0 km/h
-   Overspeed: +2.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #128
-   License Plate: 92257-R-97
-   Vehicle ID: 528
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1634
-   Location: (141.76, 395.65)
-   Speed Limit: 58 km/h
-   Actual Speed: 69.2 km/h
-   Overspeed: +11.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #129
-   License Plate: 92257-R-97
-   Vehicle ID: 528
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1646
-   Location: (390.51, 398.28)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.6 km/h
-   Overspeed: +2.0 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #130
-   License Plate: 37286-N-16
-   Vehicle ID: 539
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1669
-   Location: (169.56, 399.03)
-   Speed Limit: 58 km/h
-   Actual Speed: 63.0 km/h
-   Overspeed: +5.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #131
-   License Plate: 76896-G-26
-   Vehicle ID: 562
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1716
-   Location: (766.26, 407.38)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.0 km/h
-   Overspeed: +6.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #132
-   License Plate: 38727-D-72
-   Vehicle ID: 544
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1718
-   Location: (889.90, 419.42)
-   Speed Limit: 58 km/h
-   Actual Speed: 62.3 km/h
-   Overspeed: +4.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #133
-   License Plate: 37286-N-16
-   Vehicle ID: 539
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1728
-   Location: (485.99, 447.12)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.0 km/h
-   Overspeed: +1.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #134
-   License Plate: 55464-C-95
-   Vehicle ID: 574
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1739
-   Location: (199.15, 399.38)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.2 km/h
-   Overspeed: +2.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #135
-   License Plate: 30095-Z-60
-   Vehicle ID: 551
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1746
-   Location: (465.68, 410.47)
-   Speed Limit: 58 km/h
-   Actual Speed: 62.4 km/h
-   Overspeed: +4.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #136
-   License Plate: 47743-B-62
-   Vehicle ID: 570
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1747
-   Location: (141.01, 445.52)
-   Speed Limit: 58 km/h
-   Actual Speed: 67.1 km/h
-   Overspeed: +9.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #137
-   License Plate: 23620-F-98
-   Vehicle ID: 560
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1762
-   Location: (529.35, 440.12)
-   Speed Limit: 58 km/h
-   Actual Speed: 62.6 km/h
-   Overspeed: +5.0 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #138
-   License Plate: 33290-و-28
-   Vehicle ID: 485
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1816
-   Location: (544.62, 404.20)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.0 km/h
-   Overspeed: +2.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #139
-   License Plate: 59590-W-12
-   Vehicle ID: 608
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1834
-   Location: (270.92, 425.66)
-   Speed Limit: 58 km/h
-   Actual Speed: 57.6 km/h
-   Overspeed: +0.0 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #140
-   License Plate: 66268-B-13
-   Vehicle ID: 505
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1842
-   Location: (541.65, 411.94)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.2 km/h
-   Overspeed: +3.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #141
-   License Plate: 91491-ب-24
-   Vehicle ID: 339
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1856
-   Location: (462.89, 410.42)
+   Location: (757.46, 404.07)
    Speed Limit: 58 km/h
    Actual Speed: 58.4 km/h
    Overspeed: +0.8 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #142
-   License Plate: 84038-F-46
-   Vehicle ID: 604
+[VIOLATION] #127
+   License Plate: 32589-X-78
+   Vehicle ID: 535
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1650
+   Location: (756.28, 404.06)
+   Speed Limit: 58 km/h
+   Actual Speed: 77.6 km/h
+   Overspeed: +20.0 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #128
+   License Plate: 39985-ب-69
+   Vehicle ID: 557
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1896
-   Location: (436.63, 398.92)
+   Time: Step 1707
+   Location: (469.97, 410.54)
+   Speed Limit: 58 km/h
+   Actual Speed: 58.5 km/h
+   Overspeed: +0.9 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #129
+   License Plate: 63007-A-80
+   Vehicle ID: 551
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1741
+   Location: (470.61, 410.55)
+   Speed Limit: 58 km/h
+   Actual Speed: 61.3 km/h
+   Overspeed: +3.7 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #130
+   License Plate: 46887-ب-64
+   Vehicle ID: 596
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 1793
+   Location: (194.00, 443.19)
+   Speed Limit: 58 km/h
+   Actual Speed: 58.4 km/h
+   Overspeed: +0.8 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #131
+   License Plate: 88969-P-26
+   Vehicle ID: 565
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1820
+   Location: (529.22, 448.51)
+   Speed Limit: 58 km/h
+   Actual Speed: 61.7 km/h
+   Overspeed: +4.1 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #132
+   License Plate: 56828-A-74
+   Vehicle ID: 346
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1832
+   Location: (535.76, 411.75)
+   Speed Limit: 58 km/h
+   Actual Speed: 60.3 km/h
+   Overspeed: +2.7 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #133
+   License Plate: 26095-P-90
+   Vehicle ID: 608
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 1834
+   Location: (270.93, 424.94)
+   Speed Limit: 58 km/h
+   Actual Speed: 59.5 km/h
+   Overspeed: +1.9 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #134
+   License Plate: 88969-P-26
+   Vehicle ID: 565
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 1844
+   Location: (265.62, 356.91)
+   Speed Limit: 58 km/h
+   Actual Speed: 60.1 km/h
+   Overspeed: +2.5 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #135
+   License Plate: 29578-R-74
+   Vehicle ID: 373
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1845
+   Location: (504.93, 414.32)
+   Speed Limit: 58 km/h
+   Actual Speed: 57.9 km/h
+   Overspeed: +0.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #136
+   License Plate: 19302-J-64
+   Vehicle ID: 599
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1845
+   Location: (877.25, 419.28)
+   Speed Limit: 58 km/h
+   Actual Speed: 59.5 km/h
+   Overspeed: +1.9 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #137
+   License Plate: 45507-Q-25
+   Vehicle ID: 600
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1848
+   Location: (887.74, 419.40)
+   Speed Limit: 58 km/h
+   Actual Speed: 63.2 km/h
+   Overspeed: +5.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #138
+   License Plate: 89606-D-67
+   Vehicle ID: 617
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 1879
+   Location: (218.14, 364.28)
+   Speed Limit: 58 km/h
+   Actual Speed: 70.9 km/h
+   Overspeed: +13.3 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #139
+   License Plate: 96975-N-53
+   Vehicle ID: 627
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 1907
+   Location: (530.40, 372.99)
+   Speed Limit: 58 km/h
+   Actual Speed: 61.6 km/h
+   Overspeed: +4.0 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #140
+   License Plate: 28402-A-74
+   Vehicle ID: 625
+   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
+   Time: Step 1925
+   Location: (141.42, 395.65)
+   Speed Limit: 58 km/h
+   Actual Speed: 67.2 km/h
+   Overspeed: +9.6 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #141
+   License Plate: 90789-C-74
+   Vehicle ID: 292
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1949
+   Location: (904.23, 420.15)
+   Speed Limit: 58 km/h
+   Actual Speed: 66.6 km/h
+   Overspeed: +9.0 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #142
+   License Plate: 39743-أ-40
+   Vehicle ID: 634
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 1949
+   Location: (897.46, 416.49)
    Speed Limit: 58 km/h
    Actual Speed: 61.9 km/h
    Overspeed: +4.3 km/h
 --------------------------------------------------------------------------------
 [VIOLATION] #143
-   License Plate: 75528-ز-37
-   Vehicle ID: 600
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 1910
-   Location: (529.22, 448.36)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.2 km/h
-   Overspeed: +1.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #144
-   License Plate: 88419-Z-47
-   Vehicle ID: 625
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1935
-   Location: (132.56, 398.66)
-   Speed Limit: 58 km/h
-   Actual Speed: 62.0 km/h
-   Overspeed: +4.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #145
-   License Plate: 64923-Y-19
-   Vehicle ID: 619
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 1966
-   Location: (898.17, 419.74)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.4 km/h
-   Overspeed: +0.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #146
-   License Plate: 54136-F-68
+   License Plate: 67621-ز-67
    Vehicle ID: 657
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
    Time: Step 1971
@@ -1462,953 +1432,93 @@ SPEED RADAR VIOLATIONS LOG - 2025-12-27 19:47:48
    Actual Speed: 61.8 km/h
    Overspeed: +4.2 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #147
-   License Plate: 72051-F-75
-   Vehicle ID: 651
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1972
-   Location: (271.32, 410.97)
+[VIOLATION] #144
+   License Plate: 93960-د-19
+   Vehicle ID: 661
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 2014
+   Location: (432.83, 398.85)
+   Speed Limit: 58 km/h
+   Actual Speed: 58.5 km/h
+   Overspeed: +0.9 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #145
+   License Plate: 95709-P-15
+   Vehicle ID: 656
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 2017
+   Location: (893.35, 419.46)
    Speed Limit: 58 km/h
    Actual Speed: 64.7 km/h
    Overspeed: +7.1 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #148
-   License Plate: 98939-Q-59
-   Vehicle ID: 648
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 1983
-   Location: (268.95, 353.59)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.3 km/h
-   Overspeed: +0.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #149
-   License Plate: 59624-Q-37
-   Vehicle ID: 667
+[VIOLATION] #146
+   License Plate: 55023-T-76
+   Vehicle ID: 660
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2002
-   Location: (497.74, 336.55)
+   Time: Step 2028
+   Location: (458.48, 410.35)
    Speed Limit: 58 km/h
-   Actual Speed: 61.3 km/h
-   Overspeed: +3.7 km/h
+   Actual Speed: 62.7 km/h
+   Overspeed: +5.1 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #150
-   License Plate: 80433-R-57
-   Vehicle ID: 668
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2044
-   Location: (266.10, 371.39)
-   Speed Limit: 58 km/h
-   Actual Speed: 71.1 km/h
-   Overspeed: +13.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #151
-   License Plate: 63614-ه-42
-   Vehicle ID: 687
+[VIOLATION] #147
+   License Plate: 98159-M-29
+   Vehicle ID: 644
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2071
-   Location: (462.01, 478.32)
-   Speed Limit: 58 km/h
-   Actual Speed: 66.7 km/h
-   Overspeed: +9.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #152
-   License Plate: 37751-X-13
-   Vehicle ID: 704
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2146
-   Location: (463.15, 446.72)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.1 km/h
-   Overspeed: +0.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #153
-   License Plate: 76272-R-44
-   Vehicle ID: 727
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2217
-   Location: (216.70, 473.41)
-   Speed Limit: 58 km/h
-   Actual Speed: 57.7 km/h
-   Overspeed: +0.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #154
-   License Plate: 41214-ه-77
-   Vehicle ID: 686
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2235
-   Location: (497.71, 361.41)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.0 km/h
-   Overspeed: +1.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #155
-   License Plate: 40134-H-55
-   Vehicle ID: 721
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2271
-   Location: (805.32, 336.91)
-   Speed Limit: 58 km/h
-   Actual Speed: 71.2 km/h
-   Overspeed: +13.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #156
-   License Plate: 38497-M-37
-   Vehicle ID: 633
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2296
-   Location: (535.12, 411.73)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.8 km/h
-   Overspeed: +8.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #157
-   License Plate: 37388-A-92
-   Vehicle ID: 761
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2299
-   Location: (142.81, 398.87)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.5 km/h
-   Overspeed: +0.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #158
-   License Plate: 79133-ه-39
-   Vehicle ID: 753
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2303
-   Location: (158.81, 399.01)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.2 km/h
-   Overspeed: +0.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #159
-   License Plate: 36888-J-45
-   Vehicle ID: 770
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2336
-   Location: (145.67, 398.90)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.9 km/h
-   Overspeed: +1.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #160
-   License Plate: 77917-E-38
-   Vehicle ID: 764
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2344
-   Location: (259.82, 397.14)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.3 km/h
-   Overspeed: +2.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #161
-   License Plate: 37388-A-92
-   Vehicle ID: 761
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2346
-   Location: (429.39, 398.79)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.4 km/h
-   Overspeed: +0.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #162
-   License Plate: 68999-E-19
-   Vehicle ID: 786
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2395
-   Location: (479.99, 410.71)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.8 km/h
-   Overspeed: +2.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #163
-   License Plate: 94873-Y-70
-   Vehicle ID: 809
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2427
-   Location: (519.36, 414.56)
-   Speed Limit: 58 km/h
-   Actual Speed: 68.4 km/h
-   Overspeed: +10.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #164
-   License Plate: 93121-G-40
-   Vehicle ID: 801
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2444
-   Location: (899.44, 419.83)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.4 km/h
-   Overspeed: +6.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #165
-   License Plate: 26177-د-16
-   Vehicle ID: 812
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2485
-   Location: (278.50, 411.06)
-   Speed Limit: 58 km/h
-   Actual Speed: 66.5 km/h
-   Overspeed: +8.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #166
-   License Plate: 29447-K-58
-   Vehicle ID: 279
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2502
-   Location: (533.94, 390.91)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.6 km/h
-   Overspeed: +1.0 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #167
-   License Plate: 97590-A-30
-   Vehicle ID: 837
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2511
-   Location: (282.41, 397.31)
-   Speed Limit: 58 km/h
-   Actual Speed: 70.7 km/h
-   Overspeed: +13.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #168
-   License Plate: 45934-N-20
-   Vehicle ID: 820
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2518
-   Location: (878.19, 419.29)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.9 km/h
-   Overspeed: +2.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #169
-   License Plate: 62675-ج-42
-   Vehicle ID: 251
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2542
-   Location: (520.92, 414.58)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.9 km/h
-   Overspeed: +4.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #170
-   License Plate: 67753-H-71
-   Vehicle ID: 826
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2548
-   Location: (470.28, 410.55)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.7 km/h
-   Overspeed: +1.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #171
-   License Plate: 62675-ج-42
-   Vehicle ID: 251
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2556
-   Location: (286.01, 411.11)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.5 km/h
-   Overspeed: +1.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #172
-   License Plate: 96279-Q-19
-   Vehicle ID: 842
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2563
-   Location: (132.14, 398.65)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.9 km/h
-   Overspeed: +4.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #173
-   License Plate: 40763-S-74
-   Vehicle ID: 845
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2564
-   Location: (130.00, 395.41)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.4 km/h
-   Overspeed: +1.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #174
-   License Plate: 40849-T-45
-   Vehicle ID: 858
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2576
-   Location: (267.44, 443.32)
-   Speed Limit: 58 km/h
-   Actual Speed: 67.1 km/h
-   Overspeed: +9.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #175
-   License Plate: 10877-M-37
-   Vehicle ID: 846
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2588
-   Location: (893.01, 419.46)
-   Speed Limit: 58 km/h
-   Actual Speed: 57.9 km/h
-   Overspeed: +0.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #176
-   License Plate: 40849-T-45
-   Vehicle ID: 858
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2598
-   Location: (438.88, 446.29)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.5 km/h
-   Overspeed: +1.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #177
-   License Plate: 47185-و-97
-   Vehicle ID: 634
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2600
-   Location: (533.77, 411.70)
-   Speed Limit: 58 km/h
-   Actual Speed: 67.1 km/h
-   Overspeed: +9.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #178
-   License Plate: 52754-ب-56
-   Vehicle ID: 869
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2607
-   Location: (282.41, 400.51)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.5 km/h
-   Overspeed: +2.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #179
-   License Plate: 54901-ج-51
-   Vehicle ID: 440
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2615
-   Location: (758.46, 407.29)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.8 km/h
-   Overspeed: +8.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #180
-   License Plate: 40763-S-74
-   Vehicle ID: 845
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2615
-   Location: (417.12, 398.57)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.4 km/h
-   Overspeed: +3.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #181
-   License Plate: 47185-و-97
-   Vehicle ID: 634
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2616
-   Location: (272.51, 410.98)
-   Speed Limit: 58 km/h
-   Actual Speed: 67.5 km/h
-   Overspeed: +9.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #182
-   License Plate: 37388-A-92
-   Vehicle ID: 761
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2637
-   Location: (747.87, 407.07)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.6 km/h
-   Overspeed: +1.0 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #183
-   License Plate: 44639-Q-60
-   Vehicle ID: 873
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2648
-   Location: (403.09, 398.38)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.5 km/h
-   Overspeed: +6.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #184
-   License Plate: 12507-ب-58
-   Vehicle ID: 332
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2692
-   Location: (544.52, 415.26)
-   Speed Limit: 58 km/h
-   Actual Speed: 67.3 km/h
-   Overspeed: +9.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #185
-   License Plate: 32540-A-25
-   Vehicle ID: 885
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2699
-   Location: (132.72, 398.67)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.5 km/h
-   Overspeed: +0.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #186
-   License Plate: 47221-د-29
-   Vehicle ID: 905
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2716
-   Location: (759.63, 404.10)
-   Speed Limit: 58 km/h
-   Actual Speed: 71.2 km/h
-   Overspeed: +13.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #187
-   License Plate: 15269-Z-81
-   Vehicle ID: 886
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2723
-   Location: (899.40, 419.82)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.9 km/h
-   Overspeed: +7.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #188
-   License Plate: 97651-W-55
-   Vehicle ID: 902
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2730
-   Location: (267.55, 434.10)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.4 km/h
-   Overspeed: +0.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #189
-   License Plate: 97651-W-55
-   Vehicle ID: 902
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2740
-   Location: (406.58, 398.43)
-   Speed Limit: 58 km/h
-   Actual Speed: 82.4 km/h
-   Overspeed: +24.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #190
-   License Plate: 71558-M-16
-   Vehicle ID: 909
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2765
-   Location: (890.80, 419.43)
-   Speed Limit: 58 km/h
-   Actual Speed: 69.8 km/h
-   Overspeed: +12.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #191
-   License Plate: 23068-ب-68
-   Vehicle ID: 926
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2782
-   Location: (787.85, 346.83)
-   Speed Limit: 58 km/h
-   Actual Speed: 91.2 km/h
-   Overspeed: +33.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #192
-   License Plate: 57296-Z-69
-   Vehicle ID: 506
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2788
-   Location: (537.02, 411.79)
-   Speed Limit: 58 km/h
-   Actual Speed: 72.2 km/h
-   Overspeed: +14.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #193
-   License Plate: 73709-ه-92
-   Vehicle ID: 537
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2791
-   Location: (531.42, 411.63)
-   Speed Limit: 58 km/h
-   Actual Speed: 68.9 km/h
-   Overspeed: +11.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #194
-   License Plate: 42930-ج-52
-   Vehicle ID: 914
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2797
-   Location: (758.38, 404.08)
-   Speed Limit: 58 km/h
-   Actual Speed: 71.8 km/h
-   Overspeed: +14.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #195
-   License Plate: 55342-N-56
-   Vehicle ID: 935
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2847
-   Location: (265.83, 351.40)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.9 km/h
-   Overspeed: +7.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #196
-   License Plate: 48265-ب-69
-   Vehicle ID: 949
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2873
-   Location: (460.76, 478.57)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.5 km/h
-   Overspeed: +1.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #197
-   License Plate: 72466-ج-98
-   Vehicle ID: 942
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2875
-   Location: (267.42, 447.26)
-   Speed Limit: 58 km/h
-   Actual Speed: 63.2 km/h
-   Overspeed: +5.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #198
-   License Plate: 48265-ب-69
-   Vehicle ID: 949
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2908
-   Location: (756.62, 404.06)
-   Speed Limit: 58 km/h
-   Actual Speed: 74.9 km/h
-   Overspeed: +17.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #199
-   License Plate: 58885-C-10
-   Vehicle ID: 833
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2922
-   Location: (451.84, 399.21)
-   Speed Limit: 58 km/h
-   Actual Speed: 63.1 km/h
-   Overspeed: +5.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #200
-   License Plate: 26032-P-67
-   Vehicle ID: 973
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 2929
-   Location: (267.42, 447.01)
-   Speed Limit: 58 km/h
-   Actual Speed: 62.4 km/h
-   Overspeed: +4.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #201
-   License Plate: 26032-P-67
-   Vehicle ID: 973
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2982
-   Location: (454.31, 357.85)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.6 km/h
-   Overspeed: +2.0 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #202
-   License Plate: 81185-ز-32
-   Vehicle ID: 718
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 2994
-   Location: (450.01, 413.41)
-   Speed Limit: 58 km/h
-   Actual Speed: 63.9 km/h
-   Overspeed: +6.3 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #203
-   License Plate: 30469-F-80
-   Vehicle ID: 927
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 2996
-   Location: (752.72, 404.00)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.1 km/h
-   Overspeed: +6.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #204
-   License Plate: 76953-R-16
-   Vehicle ID: 989
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3017
-   Location: (466.44, 413.68)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.8 km/h
-   Overspeed: +1.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #205
-   License Plate: 99441-N-39
-   Vehicle ID: 1003
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3027
-   Location: (137.33, 398.76)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.5 km/h
-   Overspeed: +6.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #206
-   License Plate: 70466-A-87
-   Vehicle ID: 431
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3029
-   Location: (545.47, 415.29)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.1 km/h
-   Overspeed: +3.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #207
-   License Plate: 11652-X-93
-   Vehicle ID: 521
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3035
-   Location: (532.10, 411.65)
-   Speed Limit: 58 km/h
-   Actual Speed: 64.3 km/h
-   Overspeed: +6.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #208
-   License Plate: 70466-A-87
-   Vehicle ID: 431
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3068
-   Location: (276.50, 411.04)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.8 km/h
-   Overspeed: +2.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #209
-   License Plate: 29658-F-39
-   Vehicle ID: 1033
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 3138
-   Location: (896.65, 419.64)
-   Speed Limit: 58 km/h
-   Actual Speed: 91.1 km/h
-   Overspeed: +33.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #210
-   License Plate: 59512-W-77
-   Vehicle ID: 1037
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 3168
-   Location: (887.44, 419.40)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.3 km/h
-   Overspeed: +2.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #211
-   License Plate: 44644-G-96
-   Vehicle ID: 1058
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3190
-   Location: (270.89, 426.96)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.7 km/h
-   Overspeed: +1.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #212
-   License Plate: 65802-L-58
-   Vehicle ID: 1042
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 3225
-   Location: (895.47, 419.56)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.3 km/h
-   Overspeed: +0.7 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #213
-   License Plate: 89403-ب-73
-   Vehicle ID: 1049
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 3227
-   Location: (900.48, 419.90)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.2 km/h
-   Overspeed: +1.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #214
-   License Plate: 62213-C-82
-   Vehicle ID: 1067
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3231
-   Location: (145.52, 398.90)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.6 km/h
-   Overspeed: +4.0 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #215
-   License Plate: 62213-C-82
-   Vehicle ID: 1067
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3246
-   Location: (403.26, 398.39)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.2 km/h
-   Overspeed: +3.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #216
-   License Plate: 53219-ه-72
-   Vehicle ID: 1080
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3254
-   Location: (445.15, 399.08)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.2 km/h
-   Overspeed: +0.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #217
-   License Plate: 29605-H-41
-   Vehicle ID: 656
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3257
-   Location: (534.26, 411.71)
-   Speed Limit: 58 km/h
-   Actual Speed: 66.8 km/h
-   Overspeed: +9.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #218
-   License Plate: 54755-ج-48
-   Vehicle ID: 1073
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3259
-   Location: (132.56, 398.66)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.5 km/h
-   Overspeed: +2.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #219
-   License Plate: 54755-ج-48
-   Vehicle ID: 1073
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3273
-   Location: (392.11, 398.30)
-   Speed Limit: 58 km/h
-   Actual Speed: 66.0 km/h
-   Overspeed: +8.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #220
-   License Plate: 75058-M-56
-   Vehicle ID: 934
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 3277
-   Location: (770.31, 415.22)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.0 km/h
-   Overspeed: +2.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #221
-   License Plate: 45934-N-20
-   Vehicle ID: 820
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3298
-   Location: (469.87, 410.54)
-   Speed Limit: 58 km/h
-   Actual Speed: 61.0 km/h
-   Overspeed: +3.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #222
-   License Plate: 33619-E-91
-   Vehicle ID: 1069
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3299
-   Location: (267.43, 445.97)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.5 km/h
-   Overspeed: +2.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #223
-   License Plate: 54647-H-68
-   Vehicle ID: 1097
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3301
-   Location: (470.60, 413.75)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.8 km/h
-   Overspeed: +2.2 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #224
-   License Plate: 74825-D-96
-   Vehicle ID: 1027
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 3315
-   Location: (902.26, 420.02)
-   Speed Limit: 58 km/h
-   Actual Speed: 65.1 km/h
-   Overspeed: +7.5 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #225
-   License Plate: 22435-ه-62
-   Vehicle ID: 844
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3327
-   Location: (481.66, 413.93)
+   Time: Step 2090
+   Location: (464.69, 410.45)
    Speed Limit: 58 km/h
    Actual Speed: 63.6 km/h
    Overspeed: +6.0 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #226
-   License Plate: 42997-ه-36
-   Vehicle ID: 1089
+[VIOLATION] #148
+   License Plate: 97168-S-26
+   Vehicle ID: 216
    Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3337
-   Location: (445.00, 399.08)
-   Speed Limit: 58 km/h
-   Actual Speed: 63.7 km/h
-   Overspeed: +6.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #227
-   License Plate: 22435-ه-62
-   Vehicle ID: 844
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3343
-   Location: (275.86, 407.83)
-   Speed Limit: 58 km/h
-   Actual Speed: 70.4 km/h
-   Overspeed: +12.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #228
-   License Plate: 71483-Y-93
-   Vehicle ID: 1068
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3344
-   Location: (480.20, 402.94)
-   Speed Limit: 58 km/h
-   Actual Speed: 63.4 km/h
-   Overspeed: +5.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #229
-   License Plate: 21016-ب-26
-   Vehicle ID: 839
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3358
-   Location: (493.25, 399.99)
-   Speed Limit: 58 km/h
-   Actual Speed: 58.0 km/h
-   Overspeed: +0.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #230
-   License Plate: 45761-N-11
-   Vehicle ID: 1109
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3363
-   Location: (213.94, 406.66)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.7 km/h
-   Overspeed: +2.1 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #231
-   License Plate: 83148-V-12
-   Vehicle ID: 995
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3375
-   Location: (546.60, 412.13)
-   Speed Limit: 58 km/h
-   Actual Speed: 79.0 km/h
-   Overspeed: +21.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #232
-   License Plate: 57510-C-14
-   Vehicle ID: 1076
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3409
-   Location: (266.98, 380.35)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.4 km/h
-   Overspeed: +1.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #233
-   License Plate: 77692-S-11
-   Vehicle ID: 1135
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3409
-   Location: (542.34, 411.97)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.5 km/h
-   Overspeed: +1.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #234
-   License Plate: 73888-J-22
-   Vehicle ID: 1122
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 3427
-   Location: (821.93, 483.43)
-   Speed Limit: 58 km/h
-   Actual Speed: 60.2 km/h
-   Overspeed: +2.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #235
-   License Plate: 77692-S-11
-   Vehicle ID: 1135
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3433
-   Location: (242.22, 407.23)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.5 km/h
-   Overspeed: +1.9 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #236
-   License Plate: 31076-Y-61
-   Vehicle ID: 1020
-   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
-   Time: Step 3447
-   Location: (770.31, 415.22)
+   Time: Step 2093
+   Location: (544.62, 404.20)
    Speed Limit: 58 km/h
    Actual Speed: 60.0 km/h
    Overspeed: +2.4 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #237
-   License Plate: 37048-ب-92
-   Vehicle ID: 1163
+[VIOLATION] #149
+   License Plate: 94061-أ-97
+   Vehicle ID: 685
    Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3502
-   Location: (214.63, 399.62)
+   Time: Step 2097
+   Location: (265.61, 364.37)
    Speed Limit: 58 km/h
-   Actual Speed: 61.2 km/h
-   Overspeed: +3.6 km/h
+   Actual Speed: 59.3 km/h
+   Overspeed: +1.7 km/h
 --------------------------------------------------------------------------------
-[VIOLATION] #238
-   License Plate: 55544-و-79
-   Vehicle ID: 1147
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3515
-   Location: (419.90, 398.61)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.0 km/h
-   Overspeed: +1.4 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #239
-   License Plate: 81912-V-68
-   Vehicle ID: 329
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3517
-   Location: (483.28, 413.96)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.4 km/h
-   Overspeed: +1.8 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #240
-   License Plate: 36482-ح-69
-   Vehicle ID: 986
-   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
-   Time: Step 3522
-   Location: (539.13, 411.84)
-   Speed Limit: 58 km/h
-   Actual Speed: 59.2 km/h
-   Overspeed: +1.6 km/h
---------------------------------------------------------------------------------
-[VIOLATION] #241
-   License Plate: 48757-X-64
-   Vehicle ID: 1178
-   Radar: radar_2 - Near Marjane Junction , Farid al Ansary
-   Time: Step 3556
-   Location: (132.66, 395.46)
+[VIOLATION] #150
+   License Plate: 84047-F-44
+   Vehicle ID: 681
+   Radar: radar_3 - Bayt El Maarifa , Farid al Ansary
+   Time: Step 2107
+   Location: (889.02, 419.41)
    Speed Limit: 58 km/h
    Actual Speed: 61.5 km/h
    Overspeed: +3.9 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #151
+   License Plate: 95971-T-19
+   Vehicle ID: 646
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 2126
+   Location: (477.40, 410.66)
+   Speed Limit: 58 km/h
+   Actual Speed: 65.4 km/h
+   Overspeed: +7.8 km/h
+--------------------------------------------------------------------------------
+[VIOLATION] #152
+   License Plate: 95709-P-15
+   Vehicle ID: 656
+   Radar: radar_1 - MidWay elBaridBank , Farid al Ansary
+   Time: Step 2128
+   Location: (479.43, 410.70)
+   Speed Limit: 58 km/h
+   Actual Speed: 65.2 km/h
+   Overspeed: +7.6 km/h
 --------------------------------------------------------------------------------
