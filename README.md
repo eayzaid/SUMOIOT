@@ -1,70 +1,92 @@
 # SUMO Traffic Simulation - Smart City IoT Demo
 
-Real-world traffic simulation with realistic driver behaviors, Moroccan license plates, and speed radar enforcement for smart city demonstration.
+Real-world traffic simulation with realistic driver behaviors, Moroccan license plates, and speed radar enforcement, visualized through a modern Web Dashboard.
 
 ## Features
 
 - 🚗 **Realistic Driver Profiles** - 5 types from cautious to reckless with randomized parameters
 - 🚨 **Speed Radar System** - Configurable radar sensors with violation logging
 - 🇲🇦 **Moroccan License Plates** - Authentic format (NNNNN-L-NN)
-- 📊 **Driver Behavior Simulation** - Speed variations, random errors, fatigue effects
-- 📝 **Violation Logging** - Detailed speed ticket records with timestamps
+- 📊 **Web Dashboard** - Real-time visualization of violations and simulation status
+- 📝 **Violation Logging** - Detailed speed ticket records stored in PostgreSQL
+- 🐳 **Dockerized Stack** - Easy deployment with Docker Compose
+
+## Architecture
+
+The project consists of four main components:
+
+1.  **Frontend (Port 3000)**: React application with Tailwind CSS for visualizing data.
+2.  **Backend (Port 5000)**: Flask API managing simulations and serving violation data.
+3.  **Database (Port 5433)**: PostgreSQL database storing violation records and simulation logs.
+4.  **Simulation**: Headless SUMO simulation running in a Docker container, controlled via the API.
 
 ## Prerequisites
 
-**SUMO Installation Required:**
-
-1. Install SUMO from [https://sumo.dlr.de](https://sumo.dlr.de)
-2. Set environment variable: `SUMO_HOME` → path to SUMO installation
-3. Add to PATH: `%SUMO_HOME%\bin` and `%SUMO_HOME%\tools`
-
-**Verify installation:**
-```bash
-sumo --version
-python %SUMO_HOME%\tools\randomTrips.py --help
-```
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Quick Start
 
-```bash
-# Run full test (generates 1000 trips + 3600 step simulation)
-./test_simulation.sh
+1.  **Clone the repository**
+2.  **Start the application**
+    ```bash
+    docker-compose up --build
+    ```
+3.  **Access the Dashboard**
+    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-# Or run simulation directly
-python simulation.py
-```
+## API Documentation
 
-## Configuration
+The Backend API runs on `http://localhost:5000`.
 
-**Speed Radars:** Edit `radars_config.json`
-- Set radar coordinates (x, y)
-- Configure speed limits (m/s: 4 m/s ≈ 14 km/h)
-- Adjust detection radius (default 80m)
+### Violations
+-   `GET /api/violations`: Retrieve list of speed violations.
+    -   Query Params: `simulation_id` (optional)
+-   `POST /api/violations`: Record a new violation (used by simulation).
 
-**Trip Generation:** Edit `test_simulation.sh`
-- Modify `NUM_TRIPS` for vehicle count
-- Adjust `END_TIME` for simulation duration
+### Simulations
+-   `GET /api/simulations`: Get history of all simulations.
+-   `POST /api/control/spawn-simulation`: Start a new SUMO simulation instance.
+-   `POST /api/simulation/start`: Mark a simulation as running.
+-   `POST /api/simulation/end`: Mark a simulation as completed.
+
+### Drivers
+-   `GET /api/driver/<plate>`: Get violation history for a specific license plate.
 
 ## Project Structure
 
 ```
 SumoProject/
+├── frontend/               # React Web Dashboard
+├── backend/                # Flask API & Database Logic
+├── ENSAM_MAP/              # SUMO network & config files
+├── sensorsScripts/         # Additional sensor logic
+├── docker-compose.yml      # Container orchestration
 ├── simulation.py           # Main simulation loop
 ├── driversManagement.py    # Driver behaviors & license plates
-├── speedRadar.py          # Radar detection system
-├── radars_config.json     # Radar positions & limits
-├── test_simulation.sh     # Automated test script
-├── ENSAM_MAP/             # SUMO network & config files
-└── speed_violations.log   # Auto-generated violation log
+├── speedRadar.py           # Radar detection system
+├── radars_config.json      # Radar positions & limits
+└── test_simulation.sh      # Legacy local test script
 ```
 
-## Output
+## Configuration
 
-- **Console:** Real-time violation alerts
-- **speed_violations.log:** Detailed ticket records
-- **ENSAM_MAP/tripinfos.xml:** Vehicle trip statistics
-- **ENSAM_MAP/stats.xml:** Simulation summary
+### Speed Radars
+Edit `radars_config.json` to configure detection points:
+-   `x`, `y`: Coordinates on the SUMO map
+-   `speed_limit`: Speed limit in m/s (4 m/s ≈ 14 km/h)
+-   `radius`: Detection range in meters
 
-## Demo Purpose
+### Simulation Parameters
+-   **Driver Behaviors**: Defined in `driversManagement.py`
+-   **Traffic Flow**: Configured in `simulation.py` and `ENSAM_MAP/` files.
 
-IoT smart city presentation demonstrating automated traffic enforcement with realistic driver behavior modeling.
+## Legacy Mode (Local Run)
+
+If you have SUMO installed locally and want to run the simulation without the full web stack:
+
+```bash
+# Run simulation script directly
+python simulation.py
+```
+*Note: This requires SUMO environment variables to be set.*

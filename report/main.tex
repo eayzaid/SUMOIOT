@@ -1,0 +1,177 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{float}
+
+\geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\title{\textbf{Smart City IoT Project: Traffic Violation Monitoring System}}
+\author{Valury}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This report details the design and implementation of a Smart City IoT solution focused on traffic monitoring and violation detection. The system integrates a microscopic traffic simulation (SUMO), a central processing backend, a relational database, and a web-based dashboard for real-time monitoring. The project demonstrates the application of IoT principles in urban mobility management, featuring realistic driver behavior simulation, automated violation detection, and secure administrative control.
+\end{abstract}
+
+\section{Introduction}
+As urban populations grow, traffic management becomes increasingly critical. This project aims to simulate and monitor traffic behaviors, specifically focusing on speed violations. By leveraging the Simulation of Urban MObility (SUMO) tool, we generate realistic traffic patterns and driver behaviors (e.g., aggressive, cautious) to test our monitoring infrastructure. The system mimics a real-world IoT deployment where "edge" devices (radars) report data to a central cloud for processing and visualization.
+
+\section{System Architecture}
+The system is composed of four main decoupled components, containerized using Docker for portability and scalability.
+
+\subsection{Simulation Layer (IoT Edge)}
+The simulation layer acts as the "Edge" of the IoT system.
+\begin{itemize}
+    \item \textbf{Technology:} SUMO (Simulation of Urban MObility), Python (TraCI).
+    \item \textbf{Function:} Simulates vehicles on a map of ENSAM. It generates telemetry data (speed, location) and simulates different driver profiles.
+    \item \textbf{Radars:} Virtual radars are placed at strategic locations to detect speed limit violations.
+\end{itemize}
+
+\subsection{Backend Layer (Processing)}
+The backend serves as the central processing unit.
+\begin{itemize}
+    \item \textbf{Technology:} Python (Flask), Docker SDK.
+    \item \textbf{Function:} Receives data from the simulation, processes violations, stores data in the database, and exposes APIs for the frontend. It also manages the lifecycle of simulation containers.
+\end{itemize}
+
+\subsection{Data Layer (Storage)}
+\begin{itemize}
+    \item \textbf{Technology:} PostgreSQL.
+    \item \textbf{Function:} Persists simulation runs, vehicle details, and violation logs.
+    \item \textbf{Schema:} Contains tables for `simulations` and `violations`.
+\end{itemize}
+
+\subsection{Frontend Layer (Presentation)}
+\begin{itemize}
+    \item \textbf{Technology:} React.js, Tailwind CSS (via App.css).
+    \item \textbf{Function:} Provides a real-time dashboard for administrators to view active simulations, monitor violations, and analyze driver history. Includes authentication for security.
+\end{itemize}
+
+\section{Implementation Details}
+
+\subsection{Traffic Simulation}
+The simulation utilizes the `TraCI` (Traffic Control Interface) to interact with SUMO. The core logic is encapsulated in `simulation.py`.
+
+\subsubsection{Driver Profiles}
+To create realistic scenarios, `driversManagement.py` assigns distinct profiles to vehicles:
+\begin{itemize}
+    \item \textbf{Normal (35\%):} Adheres to limits with slight variations.
+    \item \textbf{Cautious (25\%):} Drives 5-25\% under the limit, maintains large gaps.
+    \item \textbf{Aggressive (15\%):} Exceeds limits by 15-35\%, changes lanes frequently.
+    \item \textbf{Reckless (5\%):} Exceeds limits by 40-70\%, dangerous following distances.
+    \item \textbf{Elderly/Distracted (20\%):} Slow, erratic behavior.
+\end{itemize}
+Each vehicle is also assigned a realistic Moroccan license plate (e.g., 12345-A-67).
+
+\subsubsection{Radar Logic}
+Radars are configured in `radars_config.json` with specific coordinates (X, Y), detection radius, and speed limits. The `RadarManager` checks every simulation step if a vehicle is within a radar's radius and exceeding the speed limit. If a violation is detected, it is sent to the backend via HTTP POST.
+
+\subsection{Backend API}
+The Flask application (`app.py`) provides the following endpoints:
+\begin{itemize}
+    \item \texttt{POST /api/simulation/start}: Registers a new simulation run.
+    \item \texttt{POST /api/violations}: Receives violation data from the simulation.
+    \item \texttt{GET /api/violations}: Retrieves a list of recent violations.
+    \item \texttt{GET /api/simulations}: Lists all simulation runs with statistics.
+    \item \texttt{POST /api/control/spawn-simulation}: Uses the Docker SDK to dynamically spawn a new simulation container.
+\end{itemize}
+
+\subsection{Database Schema}
+The PostgreSQL database (`init.sql`) stores data in two main tables:
+\begin{itemize}
+    \item \textbf{simulations}: Stores `simulation_id`, `start_time`, `end_time`, and `status`.
+    \item \textbf{violations}: Stores detailed event data including `radar_id`, `vehicle_id`, `license_plate`, `speed`, `limit`, and `location`.
+\end{itemize}
+
+\subsection{Frontend Dashboard}
+The React frontend provides a user-friendly interface for monitoring and control.
+
+\subsubsection{User Interface Design}
+The application features a clean, modern design using Tailwind CSS. Key views include:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/login_page.png}
+    \caption{Admin Login Page: Secure entry point requiring credentials.}
+    \label{fig:login}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Authentication:} A hardcoded admin login (`admin`/`admin`) protects the dashboard (Figure \ref{fig:login}).
+    \item \textbf{Real-time Monitoring:} The main dashboard (Figure \ref{fig:dashboard}) polls the backend every 2 seconds to update the violation feed and simulation status.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{figures/dashboard_view.png}
+    \caption{Main Dashboard: Real-time violation feed, simulation controls, and status indicators.}
+    \label{fig:dashboard}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Driver History:} Administrators can click on a license plate to view the complete violation history of a specific driver (Figure \ref{fig:driver_history}).
+    \item \textbf{Control:} Administrators can start new simulations directly from the UI, triggering Docker actions on the backend.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/driver_history.png}
+    \caption{Driver History View: Detailed statistics and violation log for a specific vehicle.}
+    \label{fig:driver_history}
+\end{figure}
+
+\subsection{Version Control and Collaboration}
+The project utilized Git for version control, hosted on GitHub. This facilitated efficient code management and tracking of changes throughout the development lifecycle.
+
+\begin{itemize}
+    \item \textbf{Repository Structure:} The codebase is organized into distinct directories for `backend`, `frontend`, and `simulation` to maintain separation of concerns.
+    \item \textbf{Commit History:} Granular commits were used to track feature implementations (e.g., "feat: auth done", "fix: docker compose").
+    \item \textbf{Branching:} Feature branches were employed to develop new functionalities (e.g., `webPage` branch for frontend work) before merging into the main branch, ensuring stability.
+\end{itemize}
+
+\section{Results and Discussion}
+The system successfully demonstrates the capability to monitor traffic in real-time. The simulation generates a diverse range of behaviors, triggering violations that are instantly captured and displayed. The use of Docker ensures that the entire stack can be deployed consistently across different environments. The dynamic spawning of simulation containers allows for scalable testing of different scenarios without restarting the entire system.
+
+\section{Conclusion}
+The SUMOIOT project successfully demonstrates a full-stack IoT application for smart cities. By integrating simulation with modern web technologies, it provides a robust platform for testing and monitoring traffic management strategies. Future enhancements could include machine learning for accident prediction and integration with real-world camera feeds.
+
+\end{document}
