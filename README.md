@@ -15,7 +15,7 @@ Real-world traffic simulation with realistic driver behaviors, Moroccan license 
 
 The project consists of four main components:
 
-1.  **Frontend (Port 3000)**: React application with Tailwind CSS for visualizing data.
+1.  **Frontend (Port 3000)**: React application served via Nginx with Tailwind CSS for visualizing data.
 2.  **Backend (Port 5000)**: Flask API managing simulations and serving violation data.
 3.  **Database (Port 5433)**: PostgreSQL database storing violation records and simulation logs.
 4.  **Simulation**: Headless SUMO simulation running in a Docker container, controlled via the API.
@@ -57,8 +57,9 @@ The Backend API runs on `http://localhost:5000`.
 
 ```
 SumoProject/
-├── frontend/               # React Web Dashboard
+├── frontend/               # React Web Dashboard (served via Nginx)
 ├── backend/                # Flask API & Database Logic
+├── report/                 # Project documentation & LaTeX report
 ├── ENSAM_MAP/              # SUMO network & config files
 ├── sensorsScripts/         # Additional sensor logic
 ├── docker-compose.yml      # Container orchestration
